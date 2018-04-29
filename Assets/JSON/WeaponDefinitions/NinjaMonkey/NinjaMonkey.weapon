@@ -8,7 +8,7 @@
     [
 		{
 			"Type":             "Projectile",
-			"GraphicName":      "cryo",
+			"GraphicName":      "ninja_throwing_star",
 			"NumPersists":      2,
 			"TerminateOnZeroPersists": true,
 			
@@ -18,77 +18,17 @@
 			"SpinRate" : 1080,
 			
 			"Movement":
-                        {
-                            "Type": "Target",
-                            "Speed": 630.0,
-                            "TurnSpeed": 1440,
-                            "TargetRange": 180,
-                            "SeekAngle": 144,
-                            "CutOffDistance": 500
-                        },
+			{
+				"Type": "Forward",
+				"Speed": 630.0,
+				"CutOffDistance": 360
+			},
 			
 			"Tasks" :
 			[ 
 				{ "Type": "Damage", "DamageType": "Piercing", "Amount": 1 },
-				{ "Type": "StatusEffect", "Status": "",  "PercentageChance" : 0.15 }, 
-					{
-						"Type":             "Projectile",
-						"GraphicName":      "cryo",
-						"NumPersists":      -1,
-						"TerminateOnZeroPersists": false,
-						"TerminateOnTowerRemoved" : true,
-						"CollisionType": "Once",
-									
-						"Movement":
-						{
-							"Type": "RotateAroundTower",
-							"Speed": 360,
-							"Offset": 32,
-							"InitialAngle": 0,
-							"TerminateOnCompletedRevolution" : true
-						},
-						
-						"TasksToProcessOnCollision" : [ 0 ],
-						"TasksToProcessOnTerminate" : [ 1 ],
-						
-						"Tasks" :
-						[ 
-							{
-								"Type": "Damage",
-								"DamageType": "Piercing",
-								"Amount": 1 
-							},
-					{
-						"Type": "Projectile",
-						"GraphicName": "cryo",
-						"NumPersists": -1,
-						"TerminateOnZeroPersists": false,
-						"TerminateOnTowerRemoved" : true,
-						"CollisionType": "Once",
-						
-						"Movement":
-						{
-							"Type": "RotateAroundTower",
-							"Speed": 360,
-							"Offset": 32,
-							"InitialAngle": 180,
-							"TerminateOnCompletedRevolution" : true
-						},
-			
-						"Tasks" :
-						[ 
-							{
-								"Type": "Damage",
-								"DamageType": "Piercing",
-								"Amount": 1 
-							}
-						]
-					}
-				]
-			}
-		]
-	}
+				{ "Type": "StatusEffect", "Status": "",  "PercentageChance" : 0.15 } 
+			]
+		}
 	]
 }
-					
-

@@ -1,7 +1,7 @@
 {	
     "Type":             "SpawnTurret",    
-    "TargetRange":      0.0,
-	"CooldownTime":     5.5,
+    "TargetRange":      1.0,
+	"CooldownTime":     10.0,
     "FireDelayTime":    0.0,
     "CanFireWithNoTargetsAndRoundInProgress" : true,
     

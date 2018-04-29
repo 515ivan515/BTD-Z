@@ -1,87 +1,50 @@
 {	
     "Type":             	"SabotageSupplyLines",    
-    "TargetRange":      	0,
-	"CooldownTime":     	90.0,
-    "FireDelayTime":    	30.0,
+    "TargetRange":      	5,
+	"CooldownTime":     	60.0,
+    "FireDelayTime":    	0.0,
 	"ManuallyFired": 		true,
 	"RequiresTargetToFire":	false,
+    
+    "TargetingFilter":
+    {
+        "Exclude" :
+        { "StatusEffect": [ "Sabotage" ] }
+    },
     
     "Tasks" :
     [
 		{
-			"Type": "MultiFire",
-			"InitialOffset": 0,
-			"AngleIncrement": 12,
-			"ShotDelay": 0.03333,
-			"FireCount": 720,
-			"AimAtTarget" : false,
+			"Type": "BloonSpawnedEvent",
+			"Duration": 15,
 			
 			"Tasks" :
 			[
 				{
-					"Type": "Projectile",
-					"GraphicName": "cryo",
+					"Type": "StatusEffect",
+					"Status": "Sabotage",
 					"NumPersists": -1,
-					"TerminateOnZeroPersists": true,
-					
-					"CollisionType": "Once",
-					
-					"Movement": 
-					{
-						"Type": "Forward",
-						"Speed": 400.0,
-						"CutOffDistance": 10000,
-						"KeepOnScreen": true
-					},
-					
-					"Tasks":
-					[
-						{
-							"Type": "Damage",
-							"DamageType": "Plasma",
-							"Amount": 5
-						}
-					]
-    			}
+					"Duration": -1,
+					"SpeedScale": 0.5
+				}
 			]
 		},
 		{
-			"Type": "MultiFire",
-			"InitialOffset": 180,
-			"AngleIncrement": 12,
-			"ShotDelay": 0.03333,
-			"FireCount": 720,
-			"AimAtTarget" : false,
+			"Type" : "AreaOfEffect",
+			"Range" : 1000,
+			"MaxTargets" : -1,
 			
-			"Tasks" :
+			"Tasks" : 
 			[
 				{
-					"Type": "Projectile",
-					"GraphicName": "cryo",
-					"NumPersists": -1,
-					"TerminateOnZeroPersists": true,
-					
-					"CollisionType": "Once",
-					
-					"Movement": 
-					{
-						"Type": "Forward",
-						"Speed": 400.0,
-						"CutOffDistance": 10000,
-						"KeepOnScreen": true
-					},
-					
-					"Tasks":
-					[
-						{
-							"Type": "Damage",
-							"DamageType": "Plasma",
-							"Amount": 5
-						}
-					]
+					"Type" : "StatusEffect",
+					"Status" : "Sabotage",
+					"NumPersists" : -1,
+					"Duration" : 15,
+					"SpeedScale" : 0.5,
+					"BloonLifetime" : 10
 				}
 			]
 		}
 	]
 }
-	

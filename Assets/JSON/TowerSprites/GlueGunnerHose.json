@@ -1,30 +1,17 @@
 {
    "actors" : [
       {
-         "Alignment" : [ 2, 0 ],
+         "Alignment" : [ 0, 0 ],
          "Alpha" : 1.0,
          "Angle" : 0.0,
          "Colour" : 4294967295,
          "Flip" : 0,
-         "Position" : [ 0.0, 0.0 ],
+         "Position" : [ -2.0, -10.0 ],
          "Scale" : [ 1.0, 1.0 ],
          "Shown" : true,
-         "sprite" : "banana_farm_brick_base",
+         "sprite" : "glue_gunner_yellow_arm",
          "type" : 1,
-         "uid" : 1
-      },
-      {
-         "Alignment" : [ 2, 0 ],
-         "Alpha" : 1.0,
-         "Angle" : 0.0,
-         "Colour" : 4294967295,
-         "Flip" : 1,
-         "Position" : [ 0.0, 0.0 ],
-         "Scale" : [ 1.0, 1.0 ],
-         "Shown" : true,
-         "sprite" : "banana_farm_brick_base",
-         "type" : 1,
-         "uid" : 2
+         "uid" : 15
       },
       {
          "Alignment" : [ 0, 0 ],
@@ -32,12 +19,12 @@
          "Angle" : 0.0,
          "Colour" : 4294967295,
          "Flip" : 0,
-         "Position" : [ 0.0, -7.0 ],
+         "Position" : [ 8.0, -5.0 ],
          "Scale" : [ 1.0, 1.0 ],
          "Shown" : true,
-         "sprite" : "banana_farm_research_facility",
+         "sprite" : "glue_gunner_glue_hose_01",
          "type" : 1,
-         "uid" : 3
+         "uid" : 18
       },
       {
          "Alignment" : [ 0, 0 ],
@@ -45,11 +32,63 @@
          "Angle" : 0.0,
          "Colour" : 4294967295,
          "Flip" : 0,
-         "Position" : [ 0.0, -1.0 ],
+         "Position" : [ 8.0, -5.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : false,
+         "sprite" : "glue_gunner_glue_hose_02",
+         "type" : 1,
+         "uid" : 19
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 8.0, -5.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : false,
+         "sprite" : "glue_gunner_glue_hose_03",
+         "type" : 1,
+         "uid" : 20
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 8.0, -5.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : false,
+         "sprite" : "glue_gunner_glue_hose_04",
+         "type" : 1,
+         "uid" : 21
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 8.0, -5.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : false,
+         "sprite" : "glue_gunner_glue_hose_05",
+         "type" : 1,
+         "uid" : 22
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ -1.0, 13.0 ],
          "Scale" : [ 1.0, 1.0 ],
          "Shown" : true,
-         "sprite" : "BRFChimneys.json",
-         "type" : 2,
+         "sprite" : "glue_gunner_glue_hose_tank",
+         "type" : 1,
          "uid" : 16
       },
       {
@@ -58,100 +97,72 @@
          "Angle" : 0.0,
          "Colour" : 4294967295,
          "Flip" : 0,
-         "Position" : [ 0.0, 13.0 ],
+         "Position" : [ -1.0, 0.0 ],
          "Scale" : [ 1.0, 1.0 ],
          "Shown" : true,
-         "sprite" : "BRFWindows.json",
-         "type" : 2,
+         "sprite" : "glue_gunner_body_yellow",
+         "type" : 1,
          "uid" : 17
       }
    ],
-   "customvariables" : null,
-   "events" : null,
+    "customvariables" : [
+                         {
+                         "VariableName" : "FirePosition",
+                         "ValueType"    : 4,
+                         "Value"        : [3.0, -6.0]
+                         }
+                         ],
+    "events" : null,
    "labels" : null,
    "stageOptions" : {
       "SpriteInfo" : [
          {
-            "SpriteInfo" : "banana_farm_brick_base",
+            "SpriteInfo" : "glue_gunner_yellow_arm",
             "Texture" : "InGame"
          },
          {
-            "SpriteInfo" : "banana_farm_research_facility",
+            "SpriteInfo" : "glue_gunner_glue_hose_01",
             "Texture" : "InGame"
          },
          {
-            "SpriteInfo" : "BRFChimneys.json",
+            "SpriteInfo" : "glue_gunner_glue_hose_02",
             "Texture" : "InGame"
          },
          {
-            "SpriteInfo" : "BRFWindows.json",
+            "SpriteInfo" : "glue_gunner_glue_hose_03",
+            "Texture" : "InGame"
+         },
+         {
+            "SpriteInfo" : "glue_gunner_glue_hose_04",
+            "Texture" : "InGame"
+         },
+         {
+            "SpriteInfo" : "glue_gunner_glue_hose_05",
+            "Texture" : "InGame"
+         },
+         {
+            "SpriteInfo" : "glue_gunner_glue_hose_tank",
+            "Texture" : "InGame"
+         },
+         {
+            "SpriteInfo" : "glue_gunner_body_yellow",
             "Texture" : "InGame"
          }
       ],
-      "StageLength" : 20.0,
+      "StageLength" : 0.25,
       "Version" : 1
    },
    "timelines" : [
+      {
+         "spriteuid" : 15,
+         "stage" : null
+      },
       {
          "spriteuid" : 16,
          "stage" : null
       },
       {
-         "spriteuid" : 1,
-         "stage" : [
-            {
-               "Alignment" : [ 2, 0 ],
-               "Alpha" : 1.0,
-               "Angle" : 0.0,
-               "Colour" : 4294967295,
-               "Flip" : 0,
-               "Position" : [ 0.0, 0.0 ],
-               "Scale" : [ 1.0, 1.0 ],
-               "Shown" : true,
-               "Time" : 0.0
-            },
-            {
-               "Alignment" : [ 2, 0 ],
-               "Alpha" : 1.0,
-               "Angle" : 0.0,
-               "Colour" : 4294967295,
-               "Flip" : 0,
-               "Position" : [ 0.0, 0.0 ],
-               "Scale" : [ 1.0, 1.0 ],
-               "Shown" : true,
-               "Time" : 0.0
-            }
-         ]
-      },
-      {
-         "spriteuid" : 2,
-         "stage" : [
-            {
-               "Alignment" : [ 2, 0 ],
-               "Alpha" : 1.0,
-               "Angle" : 0.0,
-               "Colour" : 4294967295,
-               "Flip" : 1,
-               "Position" : [ 0.0, 0.0 ],
-               "Scale" : [ 1.0, 1.0 ],
-               "Shown" : true,
-               "Time" : 0.0
-            },
-            {
-               "Alignment" : [ 2, 0 ],
-               "Alpha" : 1.0,
-               "Angle" : 0.0,
-               "Colour" : 4294967295,
-               "Flip" : 1,
-               "Position" : [ 0.0, 0.0 ],
-               "Scale" : [ 1.0, 1.0 ],
-               "Shown" : true,
-               "Time" : 0.0
-            }
-         ]
-      },
-      {
-         "spriteuid" : 3,
+         "spriteuid" : 18,
          "stage" : [
             {
                "Alignment" : [ 0, 0 ],
@@ -159,7 +170,7 @@
                "Angle" : 0.0,
                "Colour" : 4294967295,
                "Flip" : 0,
-               "Position" : [ 0.0, -7.0 ],
+               "Position" : [ 8.0, -5.0 ],
                "Scale" : [ 1.0, 1.0 ],
                "Shown" : true,
                "Time" : 0.0
@@ -170,16 +181,168 @@
                "Angle" : 0.0,
                "Colour" : 4294967295,
                "Flip" : 0,
-               "Position" : [ 0.0, -7.0 ],
+               "Position" : [ 8.0, -5.0 ],
                "Scale" : [ 1.0, 1.0 ],
-               "Shown" : true,
-               "Time" : 0.0
+               "Shown" : false,
+               "Time" : 0.05442176759243012
             }
          ]
       },
       {
          "spriteuid" : 17,
          "stage" : null
+      },
+      {
+         "spriteuid" : 19,
+         "stage" : [
+            {
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ 8.0, -5.0 ],
+               "Scale" : [ 1.0, 1.0 ],
+               "Shown" : false,
+               "Time" : 0.0
+            },
+            {
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ 8.0, -5.0 ],
+               "Scale" : [ 1.0, 1.0 ],
+               "Shown" : true,
+               "Time" : 0.05442176759243012
+            },
+            {
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ 8.0, -5.0 ],
+               "Scale" : [ 1.0, 1.0 ],
+               "Shown" : false,
+               "Time" : 0.0952380970120430
+            }
+         ]
+      },
+      {
+         "spriteuid" : 20,
+         "stage" : [
+            {
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ 8.0, -5.0 ],
+               "Scale" : [ 1.0, 1.0 ],
+               "Shown" : false,
+               "Time" : 0.0
+            },
+            {
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ 8.0, -5.0 ],
+               "Scale" : [ 1.0, 1.0 ],
+               "Shown" : true,
+               "Time" : 0.0952380970120430
+            },
+            {
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ 8.0, -5.0 ],
+               "Scale" : [ 1.0, 1.0 ],
+               "Shown" : false,
+               "Time" : 0.1496598571538925
+            }
+         ]
+      },
+      {
+         "spriteuid" : 21,
+         "stage" : [
+            {
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ 8.0, -5.0 ],
+               "Scale" : [ 1.0, 1.0 ],
+               "Shown" : false,
+               "Time" : 0.0
+            },
+            {
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ 8.0, -5.0 ],
+               "Scale" : [ 1.0, 1.0 ],
+               "Shown" : true,
+               "Time" : 0.1496598571538925
+            },
+            {
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ 8.0, -5.0 ],
+               "Scale" : [ 1.0, 1.0 ],
+               "Shown" : false,
+               "Time" : 0.2040816396474838
+            }
+         ]
+      },
+      {
+         "spriteuid" : 22,
+         "stage" : [
+            {
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ 8.0, -5.0 ],
+               "Scale" : [ 1.0, 1.0 ],
+               "Shown" : false,
+               "Time" : 0.0
+            },
+            {
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ 8.0, -5.0 ],
+               "Scale" : [ 1.0, 1.0 ],
+               "Shown" : true,
+               "Time" : 0.2040816396474838
+            },
+            {
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ 8.0, -5.0 ],
+               "Scale" : [ 1.0, 1.0 ],
+               "Shown" : false,
+               "Time" : 0.2040816396474838
+            }
+         ]
       }
    ]
 }

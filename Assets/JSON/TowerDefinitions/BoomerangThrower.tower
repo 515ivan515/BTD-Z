@@ -49,8 +49,8 @@
 		[
 			"Boomerangs can now pop 7 bloons each.",
 			"Throws sharper, faster, bigger glaives instead of boomerangs.",
-			"Glaives bounce around the screen.",
-			"Glave Lord Now fires 5 glaves. Every shot 5 more glaves get added. if your tower dose not shoot it will reset back to 5 glaves"
+			"Glaives now automatically bounce from bloon to bloon.",
+			"Two permanent glaives orbit the tower."
 		],
 		[
 			"Sonic boomerangs can smash through frozen bloons.",

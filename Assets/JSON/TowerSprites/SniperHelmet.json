@@ -11,7 +11,7 @@
          "Position" : [ 2.0, 0.0 ],
          "Scale" : [ 1.0, 1.0 ],
          "Shown" : true,
-         "sprite" : "Hunter_SniperHelmetcompound.json",
+         "sprite" : "SniperHelmetcompound.json",
          "type" : 2,
          "uid" : 1
       }
@@ -22,7 +22,7 @@
    "stageOptions" : {
       "SpriteInfo" : [
          {
-            "SpriteInfo" : "Hunter_SniperHelmetcompound.json",
+            "SpriteInfo" : "SniperHelmetcompound.json",
             "Texture" : "InGame"
          }
       ],

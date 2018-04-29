@@ -64,19 +64,6 @@
          "sprite" : "boomerang_glaive_riccochet",
          "type" : 1,
          "uid" : 13
-      },
-      {
-         "Alignment" : [ 0, 0 ],
-         "Alpha" : 2.0,
-         "Angle" : 0.0,
-         "Colour" : 4294967295,
-         "Flip" : 0,
-         "Position" : [ -11.0, -4.0 ],
-         "Scale" : [ 1.0, 1.0 ],
-         "Shown" : true,
-         "sprite" : "cobra_bluetooth",
-         "type" : 1,
-         "uid" : 12
       }
    ],
     "customvariables" : [
@@ -108,10 +95,6 @@
          },
          {
             "SpriteInfo" : "boomerang_glaive_riccochet",
-            "Texture" : "InGame"
-         },
-         {
-            "SpriteInfo" : "cobra_bluetooth",
             "Texture" : "InGame"
          }
       ],

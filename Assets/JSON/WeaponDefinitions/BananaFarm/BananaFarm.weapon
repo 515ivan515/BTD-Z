@@ -5,7 +5,7 @@
     "FireDelayTime":    0.0,
    	"RequiresTargetToFire"	: false,
 	"AllowFiringOnlyOnRoundStart": true,
-	"MaxShots": 5,
+	"MaxShots": 2,
 
     "Tasks" :
     [
@@ -16,16 +16,16 @@
 			"FireFullRange": true,
 			"TerminateOnZeroPersists": true,
 			"FollowTarget": false,
-            "WaitTimeRange": [ 0.2, 0.5 ],
+            "WaitTimeRange": [ 0.0, 2.0 ],
 			
 			"Tasks":
 			[
 				{
 					"Type":             "Collectable",
-					"GraphicName":      "candy",
+					"GraphicName":      "bananas",
 					"Duration":	15,
-					"MoneyRange": [ 100, 60 ],
-					"MoneyMultiplier": 3.0,
+					"MoneyRange": [ 60, 60 ],
+					"MoneyMultiplier": 1.0,
 					"CollectionRadius": 50,
 					
 					"Movement":
@@ -40,9 +40,9 @@
 					[
 						{
 							"Type": "TextEffect",
-							"Text": "(Candy!)",
+							"Text": "",
 							"Font": "oetztype_24_black_stroke",
-							"Colour": [ 0.0, 20.0, 50.0 ],
+							"Colour": [ 1.0, 1.0, 1.0 ],
 							
 							"Movement":
 							{

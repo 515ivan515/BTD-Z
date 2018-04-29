@@ -169,7 +169,7 @@
             }
         },
         {
-            "Name" : "Pyro Temple",
+            "Name" : "MOAB Mauler",
             
             "TowerUpgrade" :
             {
@@ -198,7 +198,7 @@
             }
         },
         {
-            "Name" : "Ultimate Distruction",
+            "Name" : "MOAB Assassin",
 			
 			"TowerUpgrade" :
             {

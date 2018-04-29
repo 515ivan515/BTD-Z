@@ -1,6 +1,6 @@
 {
    "Alignment" : [ 5, 5 ],
-   "Point" : [ 0.0, -12.0 ],
+   "Point"  :  [  0.0,  -12.0  ],
    "actors" : [
       {
          "Alignment" : [ 2, 0 ],
@@ -8,12 +8,12 @@
          "Angle" : 0.0,
          "Colour" : 4294967295,
          "Flip" : 0,
-         "Position" : [ 0.0, -11.0 ],
+         "Position" : [ 0.0, -44.0 ],
          "Scale" : [ 1.0, 1.0 ],
          "Shown" : true,
-         "sprite" : "bazooza_dartling_gun_red_laser",
+         "sprite" : "dartling_gun_bads_barrel_02",
          "type" : 1,
-         "uid" : 27
+         "uid" : 24
       },
       {
          "Alignment" : [ 2, 0 ],
@@ -21,10 +21,62 @@
          "Angle" : 0.0,
          "Colour" : 4294967295,
          "Flip" : 1,
-         "Position" : [ 0.0, -11.0 ],
+         "Position" : [ 0.0, -44.0 ],
          "Scale" : [ 1.0, 1.0 ],
          "Shown" : true,
-         "sprite" : "bazooza_dartling_gun_red_laser",
+         "sprite" : "dartling_gun_bads_barrel_02",
+         "type" : 1,
+         "uid" : 25
+      },
+      {
+         "Alignment" : [ 2, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 0.0, -44.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : false,
+         "sprite" : "dartling_gun_bads_barrel_01",
+         "type" : 1,
+         "uid" : 22
+      },
+      {
+         "Alignment" : [ 2, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 1,
+         "Position" : [ 0.0, -44.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : false,
+         "sprite" : "dartling_gun_bads_barrel_01",
+         "type" : 1,
+         "uid" : 23
+      },
+      {
+         "Alignment" : [ 2, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 0.0, -25.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "dartling_gun_bads",
+         "type" : 1,
+         "uid" : 20
+      },
+      {
+         "Alignment" : [ 2, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 1,
+         "Position" : [ 0.0, -25.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "dartling_gun_bads",
          "type" : 1,
          "uid" : 21
       },
@@ -34,64 +86,12 @@
          "Angle" : 0.0,
          "Colour" : 4294967295,
          "Flip" : 0,
-         "Position" : [ 0.0, 25.0 ],
+         "Position" : [ 0.0, 4.0 ],
          "Scale" : [ 1.0, 1.0 ],
          "Shown" : true,
          "sprite" : "dartling_gun_monkey",
          "type" : 1,
-         "uid" : 22
-      },
-      {
-         "Alignment" : [ 2, 0 ],
-         "Alpha" : 1.0,
-         "Angle" : 0.0,
-         "Colour" : 4294967295,
-         "Flip" : 0,
-         "Position" : [ -0.0, 16.0 ],
-         "Scale" : [ 1.0, 1.0 ],
-         "Shown" : true,
-         "sprite" : "bazooka_dartling_gun_gas_mask",
-         "type" : 1,
-         "uid" : 23
-      },
-      {
-         "Alignment" : [ 2, 0 ],
-         "Alpha" : 1.0,
-         "Angle" : 0.0,
-         "Colour" : 4294967295,
-         "Flip" : 1,
-         "Position" : [ 0.0, 16.0 ],
-         "Scale" : [ 1.0, 1.0 ],
-         "Shown" : true,
-         "sprite" : "bazooka_dartling_gun_gas_mask",
-         "type" : 1,
-         "uid" : 24
-      },
-      {
-         "Alignment" : [ 2, 0 ],
-         "Alpha" : 1.0,
-         "Angle" : 0.0,
-         "Colour" : 4294967295,
-         "Flip" : 0,
-         "Position" : [ 0.0, 24.0 ],
-         "Scale" : [ 1.0, 1.0 ],
-         "Shown" : true,
-         "sprite" : "bazooka_dartling_gun_helmet_red",
-         "type" : 1,
-         "uid" : 25
-      },
-      {
-         "Alignment" : [ 2, 0 ],
-         "Alpha" : 1.0,
-         "Angle" : 0.0,
-         "Colour" : 4294967295,
-         "Flip" : 1,
-         "Position" : [ 0.0, 24.0 ],
-         "Scale" : [ 1.0, 1.0 ],
-         "Shown" : true,
-         "sprite" : "bazooka_dartling_gun_helmet_red",
-         "type" : 1,
-         "uid" : 26
+         "uid" : 2
       },
       {
          "Alignment" : [ 0, 0 ],
@@ -99,27 +99,35 @@
          "Angle" : 0.0,
          "Colour" : 4294967295,
          "Flip" : 0,
-         "Position" : [ 0.0, 6.0 ],
+         "Position" : [ 0.0, 4.0 ],
          "Scale" : [ 1.0, 1.0 ],
          "Shown" : true,
-         "sprite" : "_bazooka_glow_red.json",
-         "type" : 2,
-         "uid" : 28
+         "sprite" : "dartling_gun_bads_hat",
+         "type" : 1,
+         "uid" : 18
       }
    ],
     "customvariables" : [
-                         {
-                         "VariableName" : "FirePosition",
-                         "ValueType"    : 4,
-                         "Value"        : [0, -35]
-                         }
-                         ],
+         {
+             "VariableName" : "FirePosition",
+             "ValueType"    : 4,
+             "Value"        : [0, -35]
+         }
+     ],
    "events" : null,
    "labels" : null,
    "stageOptions" : {
       "SpriteInfo" : [
          {
-            "SpriteInfo" : "bazooza_dartling_gun_red_laser",
+            "SpriteInfo" : "dartling_gun_bads_barrel_02",
+            "Texture" : "InGame"
+         },
+         {
+            "SpriteInfo" : "dartling_gun_bads_barrel_01",
+            "Texture" : "InGame"
+         },
+         {
+            "SpriteInfo" : "dartling_gun_bads",
             "Texture" : "InGame"
          },
          {
@@ -127,24 +135,124 @@
             "Texture" : "InGame"
          },
          {
-            "SpriteInfo" : "bazooka_dartling_gun_gas_mask",
-            "Texture" : "InGame"
-         },
-         {
-            "SpriteInfo" : "bazooka_dartling_gun_helmet_red",
-            "Texture" : "InGame"
-         },
-         {
-            "SpriteInfo" : "_bazooka_glow_red.json",
+            "SpriteInfo" : "dartling_gun_bads_hat",
             "Texture" : "InGame"
          }
       ],
-      "StageLength" : 0.1000000014901161,
+      "StageLength" : 0.1,
       "Version" : 1
    },
    "timelines" : [
       {
-         "spriteuid" : 26,
+         "spriteuid" : 24,
+         "stage" : [
+            {
+               "Alignment" : [ 2, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ 0.0, -44.0 ],
+               "Scale" : [ 1.0, 1.0 ],
+               "Shown" : true,
+               "Time" : 0.0
+            },
+            {
+               "Alignment" : [ 2, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ 0.0, -44.0 ],
+               "Scale" : [ 1.0, 1.0 ],
+               "Shown" : false,
+               "Time" : 0.05442176759243012
+            }
+         ]
+      },
+      {
+         "spriteuid" : 25,
+         "stage" : [
+            {
+               "Alignment" : [ 2, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 1,
+               "Position" : [ 0.0, -44.0 ],
+               "Scale" : [ 1.0, 1.0 ],
+               "Shown" : true,
+               "Time" : 0.0
+            },
+            {
+               "Alignment" : [ 2, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 1,
+               "Position" : [ 0.0, -44.0 ],
+               "Scale" : [ 1.0, 1.0 ],
+               "Shown" : false,
+               "Time" : 0.05442176759243012
+            }
+         ]
+      },
+      {
+         "spriteuid" : 22,
+         "stage" : [
+            {
+               "Alignment" : [ 2, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ 0.0, -44.0 ],
+               "Scale" : [ 1.0, 1.0 ],
+               "Shown" : false,
+               "Time" : 0.0
+            },
+            {
+               "Alignment" : [ 2, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ 0.0, -44.0 ],
+               "Scale" : [ 1.0, 1.0 ],
+               "Shown" : true,
+               "Time" : 0.05442176759243012
+            }
+         ]
+      },
+      {
+         "spriteuid" : 23,
+         "stage" : [
+            {
+               "Alignment" : [ 2, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 1,
+               "Position" : [ 0.0, -44.0 ],
+               "Scale" : [ 1.0, 1.0 ],
+               "Shown" : false,
+               "Time" : 0.0
+            },
+            {
+               "Alignment" : [ 2, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 1,
+               "Position" : [ 0.0, -44.0 ],
+               "Scale" : [ 1.0, 1.0 ],
+               "Shown" : true,
+               "Time" : 0.05442176759243012
+            }
+         ]
+      },
+      {
+         "spriteuid" : 20,
          "stage" : null
       },
       {
@@ -152,27 +260,11 @@
          "stage" : null
       },
       {
-         "spriteuid" : 23,
+         "spriteuid" : 2,
          "stage" : null
       },
       {
-         "spriteuid" : 22,
-         "stage" : null
-      },
-      {
-         "spriteuid" : 25,
-         "stage" : null
-      },
-      {
-         "spriteuid" : 24,
-         "stage" : null
-      },
-      {
-         "spriteuid" : 27,
-         "stage" : null
-      },
-      {
-         "spriteuid" : 28,
+         "spriteuid" : 18,
          "stage" : null
       }
    ]

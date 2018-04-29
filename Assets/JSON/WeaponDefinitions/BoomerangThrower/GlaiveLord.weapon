@@ -1,11 +1,11 @@
 {	
     "Type":             "GlaiveLord",    
-    "TargetRange":      10000,
+    "TargetRange":      32,
 	"CooldownTime":     0,
     "FireDelayTime":    0,
-	"RequiresTargetToFire": true,
- 	"TotalAmmo" : 5,
-	"RemainingAmmo" : 5,
+	"RequiresTargetToFire": false,
+ 	"TotalAmmo" : 1,
+	"RemainingAmmo" : 1,
    
     "Tasks" :
     [
@@ -19,11 +19,13 @@
 						
 			"Movement":
 			{
-						"Type": "Forward",
-						"Speed": 1000.0,
-						"CutOffDistance": 10000,
-						"KeepOnScreen": true
-					},			
+				"Type": "RotateAroundTower",
+				"Speed": 360,
+				"Offset": 32,
+				"InitialAngle": 0,
+				"TerminateOnCompletedRevolution" : true
+			},
+			
 			"TasksToProcessOnCollision" : [ 0 ],
 			"TasksToProcessOnTerminate" : [ 1 ],
 			
@@ -37,7 +39,7 @@
 				{
 					"Type" : "RestoreAmmo",
 					"Proxied" : false,
-					"Amount" : 5,
+					"Amount" : 2,
 					"RoundRobin" : true
 				}
 			]
@@ -52,11 +54,12 @@
 			
 			"Movement":
 			{
-						"Type": "Forward",
-						"Speed": 1000.0,
-						"CutOffDistance": 10000,
-						"KeepOnScreen": true
-					},
+				"Type": "RotateAroundTower",
+				"Speed": 360,
+				"Offset": 32,
+				"InitialAngle": 180,
+				"TerminateOnCompletedRevolution" : true
+			},
 			
 			"TasksToProcessOnCollision" : [ 0 ],
 			"TasksToProcessOnTerminate" : [ 1 ],
@@ -71,7 +74,7 @@
 				{
 					"Type" : "RestoreAmmo",
 					"Proxied" : false,
-					"Amount" : 5,
+					"Amount" : 2,
 					"RoundRobin" : true
 				}
 			]

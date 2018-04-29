@@ -1,6 +1,4 @@
 {
-   "Alignment" : null,
-   "Point" : null,
    "actors" : [
       {
          "Alignment" : [ 0, 0 ],
@@ -8,12 +6,12 @@
          "Angle" : 0.0,
          "Colour" : 4294967295,
          "Flip" : 0,
-         "Position" : [ -0.0, 0.0 ],
+         "Position" : [ -10.0, -6.0 ],
          "Scale" : [ 1.0, 1.0 ],
          "Shown" : true,
-         "sprite" : "_cape_purple.json",
-         "type" : 2,
-         "uid" : 20
+         "sprite" : "supermonkey_arm",
+         "type" : 1,
+         "uid" : 9
       },
       {
          "Alignment" : [ 0, 0 ],
@@ -24,22 +22,9 @@
          "Position" : [ 10.0, -6.0 ],
          "Scale" : [ 1.0, 1.0 ],
          "Shown" : true,
-         "sprite" : "evil_supermonkey_arm_purple",
+         "sprite" : "supermonkey_arm",
          "type" : 1,
-         "uid" : 11
-      },
-      {
-         "Alignment" : [ 0, 0 ],
-         "Alpha" : 1.0,
-         "Angle" : 0.0,
-         "Colour" : 4294967295,
-         "Flip" : 0,
-         "Position" : [ -10.0, -6.0 ],
-         "Scale" : [ 1.0, 1.0 ],
-         "Shown" : true,
-         "sprite" : "evil_supermonkey_arm_purple",
-         "type" : 1,
-         "uid" : 17
+         "uid" : 6
       },
       {
          "Alignment" : [ 2, 0 ],
@@ -47,12 +32,12 @@
          "Angle" : 0.0,
          "Colour" : 4294967295,
          "Flip" : 0,
-         "Position" : [ 0.0, -3.0 ],
+         "Position" : [ 0.0, 11.0 ],
          "Scale" : [ 1.0, 1.0 ],
          "Shown" : true,
-         "sprite" : "evil_supermonkey",
+         "sprite" : "supermonkey_cape_purple",
          "type" : 1,
-         "uid" : 9
+         "uid" : 12
       },
       {
          "Alignment" : [ 2, 0 ],
@@ -60,12 +45,12 @@
          "Angle" : 0.0,
          "Colour" : 4294967295,
          "Flip" : 1,
-         "Position" : [ 0.0, -3.0 ],
+         "Position" : [ 0.0, 11.0 ],
          "Scale" : [ 1.0, 1.0 ],
          "Shown" : true,
-         "sprite" : "evil_supermonkey",
+         "sprite" : "supermonkey_cape_purple",
          "type" : 1,
-         "uid" : 10
+         "uid" : 13
       },
       {
          "Alignment" : [ 0, 0 ],
@@ -73,68 +58,257 @@
          "Angle" : 0.0,
          "Colour" : 4294967295,
          "Flip" : 0,
-         "Position" : [ 0.250, -5.0 ],
+         "Position" : [ 0.0, 14.0 ],
          "Scale" : [ 1.0, 1.0 ],
          "Shown" : true,
-         "sprite" : "evil_supermonkey_plasma_vision",
+         "sprite" : "supermonkey_cape_logo",
          "type" : 1,
-         "uid" : 19
-      }
-   ],
-   "customvariables" : [
+         "uid" : 3
+      },
       {
-         "Name" : "FirePosition",
-         "Type" : 4,
-         "Value" : [ 0.0, -13.0 ]
+         "Alignment" : [ 2, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 0.0, 0.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "supermonkey",
+         "type" : 1,
+         "uid" : 1
+      },
+      {
+         "Alignment" : [ 2, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 1,
+         "Position" : [ 0.0, 0.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "supermonkey",
+         "type" : 1,
+         "uid" : 2
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 0.0, -5.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "supermonkey_plasma_vision",
+         "type" : 1,
+         "uid" : 11
       }
    ],
+    "customvariables"  : [
+      {
+          "VariableName" : "FirePosition",
+          "ValueType"    : 4,
+          "Value"        : [0.0, -13.0]
+      }
+    ],
    "events" : null,
    "labels" : null,
    "stageOptions" : {
       "SpriteInfo" : [
          {
-            "SpriteInfo" : "_cape_purple.json",
+            "SpriteInfo" : "supermonkey_arm",
             "Texture" : "InGame"
          },
          {
-            "SpriteInfo" : "evil_supermonkey_arm_purple",
+            "SpriteInfo" : "supermonkey_cape_purple",
             "Texture" : "InGame"
          },
          {
-            "SpriteInfo" : "evil_supermonkey",
+            "SpriteInfo" : "supermonkey_cape_logo",
             "Texture" : "InGame"
          },
          {
-            "SpriteInfo" : "evil_supermonkey_plasma_vision",
+            "SpriteInfo" : "supermonkey",
+            "Texture" : "InGame"
+         },
+         {
+            "SpriteInfo" : "supermonkey_plasma_vision",
             "Texture" : "InGame"
          }
       ],
-      "StageLength" : 0.1970486193895340,
+      "StageLength" : 20.0,
       "Version" : 1
    },
    "timelines" : [
       {
-         "spriteuid" : 20,
+         "spriteuid" : 9,
+         "stage" : [
+            {
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ -10.0, -6.0 ],
+               "Scale" : [ 1.0, 1.0 ],
+               "Shown" : true,
+               "Time" : 0.0
+            },
+            {
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ -10.0, -6.0 ],
+               "Scale" : [ 1.0, 1.0 ],
+               "Shown" : true,
+               "Time" : 0.0
+            }
+         ]
+      },
+      {
+         "spriteuid" : 6,
+         "stage" : [
+            {
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 1,
+               "Position" : [ 10.0, -6.0 ],
+               "Scale" : [ 1.0, 1.0 ],
+               "Shown" : true,
+               "Time" : 0.0
+            },
+            {
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 1,
+               "Position" : [ 10.0, -6.0 ],
+               "Scale" : [ 1.0, 1.0 ],
+               "Shown" : true,
+               "Time" : 0.0
+            }
+         ]
+      },
+      {
+         "spriteuid" : 13,
          "stage" : null
       },
       {
-         "spriteuid" : 17,
-         "stage" : null
+         "spriteuid" : 3,
+         "stage" : [
+            {
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ 0.0, 14.0 ],
+               "Scale" : [ 1.0, 1.0 ],
+               "Shown" : true,
+               "Time" : 0.0
+            },
+            {
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ 0.0, 15.0 ],
+               "Scale" : [ 1.0, 1.0 ],
+               "Shown" : true,
+               "Time" : 0.0
+            }
+         ]
       },
       {
-         "spriteuid" : 10,
-         "stage" : null
+         "spriteuid" : 1,
+         "stage" : [
+            {
+               "Alignment" : [ 2, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ 0.0, 0.0 ],
+               "Scale" : [ 1.0, 1.0 ],
+               "Shown" : true,
+               "Time" : 0.0
+            },
+            {
+               "Alignment" : [ 2, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ 0.0, 0.0 ],
+               "Scale" : [ 1.0, 1.0 ],
+               "Shown" : true,
+               "Time" : 0.0
+            }
+         ]
+      },
+      {
+         "spriteuid" : 2,
+         "stage" : [
+            {
+               "Alignment" : [ 2, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 1,
+               "Position" : [ 0.0, 0.0 ],
+               "Scale" : [ 1.0, 1.0 ],
+               "Shown" : true,
+               "Time" : 0.0
+            },
+            {
+               "Alignment" : [ 2, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 1,
+               "Position" : [ 0.0, 0.0 ],
+               "Scale" : [ 1.0, 1.0 ],
+               "Shown" : true,
+               "Time" : 0.0
+            }
+         ]
       },
       {
          "spriteuid" : 11,
-         "stage" : null
+         "stage" : [
+            {
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ 0.0, -5.0 ],
+               "Scale" : [ 1.0, 1.0 ],
+               "Shown" : true,
+               "Time" : 0.0
+            },
+            {
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ 0.0, -5.0 ],
+               "Scale" : [ 1.0, 1.0 ],
+               "Shown" : true,
+               "Time" : 0.0
+            }
+         ]
       },
       {
-         "spriteuid" : 9,
-         "stage" : null
-      },
-      {
-         "spriteuid" : 19,
+         "spriteuid" : 12,
          "stage" : null
       }
    ]

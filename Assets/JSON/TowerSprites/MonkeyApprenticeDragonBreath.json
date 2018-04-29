@@ -9,7 +9,7 @@
          "Position" : [ 8.0, -12.0 ],
          "Scale" : [ 1.0, 1.0 ],
          "Shown" : true,
-         "sprite" : "supermonkey_tech_terror_projectile",
+         "sprite" : "monkey_apprentice_dragon_breath_staff",
          "type" : 1,
          "uid" : 9
       },
@@ -91,7 +91,7 @@
    "stageOptions" : {
       "SpriteInfo" : [
          {
-            "SpriteInfo" : "supermonkey_tech_terror_projectile",
+            "SpriteInfo" : "monkey_apprentice_dragon_breath_staff",
             "Texture" : "InGame"
          },
          {

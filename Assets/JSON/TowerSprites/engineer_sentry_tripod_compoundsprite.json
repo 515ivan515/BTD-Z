@@ -1,17 +1,19 @@
 {
+   "Alignment" : null,
+   "Point" : null,
    "actors" : [
       {
          "Alignment" : [ 0, 0 ],
          "Alpha" : 1.0,
          "Angle" : 0.0,
-         "Colour" : 01750,
+         "Colour" : 4294967295,
          "Flip" : 0,
          "Position" : [ 0.0, 0.0 ],
-         "Scale" : [ 0.5, 0.5 ],
+         "Scale" : [ 1.0, 1.0 ],
          "Shown" : true,
-         "sprite" : "banana_farm_earth_base",
+         "sprite" : "sentry_tripod",
          "type" : 1,
-         "uid" : 1
+         "uid" : 5
       }
    ],
    "customvariables" : null,
@@ -20,7 +22,7 @@
    "stageOptions" : {
       "SpriteInfo" : [
          {
-            "SpriteInfo" : "banana_farm_earth_base",
+            "SpriteInfo" : "sentry_tripod",
             "Texture" : "InGame"
          }
       ],

@@ -19,11 +19,17 @@
             
 			"Movement":
 			{
-						"Type": "Forward",
-						"Speed": 1000.0,
-						"CutOffDistance": 10000,
-						"KeepOnScreen": true
-					},
+				"Type": "MotionCurve",
+				"Curves":
+				[
+						[ [0, 0], [0, 0], [71.68, 35.2], [83.84, -17.28] ],
+						[ [83.84, -17.28], [96.64, -69.76], [28.8, -101.76], [-8.32, -7.04] ]
+				],
+				"Speed": 360,
+				"TerminateAtEndOfCurve": true,
+				"ScaleCurvesByDirection": false,
+                "AngleOffset" : -0.13
+			},
 						
 			"Tasks" :
 			[ 
@@ -36,10 +42,10 @@
 					
 					"Movement":
 					{
-						"Type": "Forward",
-						"Speed": 1000.0,
-						"CutOffDistance": 10000,
-						"KeepOnScreen": true
+						"Type": "GoToTarget",
+						"Speed": 500,
+						"NextTargetRange": 150,
+						"DestroyWhenNoTarget": true
 					},
 
 					"Tasks" :
@@ -47,7 +53,7 @@
 						{
 							"Type": "Damage", 
 							"DamageType": "Piercing", 
-							"Amount": 5 
+							"Amount": 1 
 						}
 					]
 				}
@@ -65,11 +71,17 @@
             
             "Movement":
             {
-						"Type": "Forward",
-						"Speed": 400.0,
-						"CutOffDistance": 10000,
-						"KeepOnScreen": true
-					},
+                "Type": "MotionCurve",
+                "Curves":
+                [
+                        [ [0, 0], [0, 0], [71.68, 35.2], [83.84, -17.28] ],
+                        [ [83.84, -17.28], [96.64, -69.76], [28.8, -101.76], [-8.32, -7.04] ]
+                ],
+                "Speed": 360,
+                "TerminateAtEndOfCurve": true,
+                "ScaleCurvesByDirection": false,
+                "AngleOffset" : -0.63
+            },
                         
             "Tasks" :
             [ 
@@ -82,18 +94,18 @@
                     
                     "Movement":
                     {
-						"Type": "Forward",
-						"Speed": 1000.0,
-						"CutOffDistance": 10000,
-						"KeepOnScreen": true
-					},
+                        "Type": "GoToTarget",
+                        "Speed": 500,
+                        "NextTargetRange": 150,
+                        "DestroyWhenNoTarget": true
+                    },
 
                     "Tasks" :
                     [ 
                         {
                             "Type": "Damage", 
                             "DamageType": "Piercing", 
-                            "Amount": 10000 
+                            "Amount": 1 
                         }
                     ]
                 }

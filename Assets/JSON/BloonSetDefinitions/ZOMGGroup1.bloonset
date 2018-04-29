@@ -3,7 +3,7 @@
 	"BloonType" : "ZOMG",
 	"Quantity" : 1,
 	"Interval" : 1.0,
-	"Cost" : 100000,
+	"Cost" : 10000,
 	"IncomeChange" : -900,
 	"UnlockRound" : 22
 }

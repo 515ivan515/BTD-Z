@@ -3,7 +3,7 @@
 	"BloonType" : "BFB",
 	"Quantity" : 1,
 	"Interval" : 0.6,
-	"Cost" : 25000,
+	"Cost" : 2500,
 	"IncomeChange" : -140,
 	"UnlockRound" : 20
 }

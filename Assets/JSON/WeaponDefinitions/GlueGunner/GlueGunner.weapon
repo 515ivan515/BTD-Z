@@ -2,7 +2,7 @@
     "Type":             "GlueGunner",    
     "TargetRange":      140.0,
 	"CooldownTime":     0.8,
-    "FireDelayTime":    0.1
+    "FireDelayTime":    0.2,
     
     "TargetingFilter":
     {
@@ -13,17 +13,17 @@
 		"Include" :
 		{
 			"BloonType" : [
-				"",
-				"",
-				"",
-				"",
-				"",
-				"",
-				"",
-				"",
-				"",
-				"",
-				""
+				"Red",
+				"Blue",
+				"Green",
+				"Yellow",
+				"Pink",
+				"Black",
+				"White",
+				"Lead",
+				"Zebra",
+				"Rainbow",
+				"Ceramic"
 			]
 		}
     },
@@ -34,9 +34,9 @@
 			"Type":             "Projectile",
 			"GraphicName":      "glue_gunner_glue_yellow",
 			"NumPersists":      1,
-            "ForcePersists":	false,
+            "ForcePersists":	true,
 			"TerminateOnZeroPersists": true,
-			"FollowTarget": false,			
+			
 			"CollisionType": "Once",
 			"IgnoreStatusEffect" : [ "Glue" ],
             "Radius" : 12.5,

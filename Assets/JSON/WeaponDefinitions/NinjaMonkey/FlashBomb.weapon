@@ -1,7 +1,7 @@
 {	
     "Type":             "FlashBomb",    
     "TargetRange":      120.0,
-	"CooldownTime":     0.5,
+	"CooldownTime":     0.6,
     "FireDelayTime":    0.0,
     
     "Tasks" :
@@ -24,79 +24,22 @@
 			},
 			
 			"Tasks" :
-			[
+			[ 
 				{
 					"Type": "AreaOfEffect",
-					"Range": 300,
-					"MaxTargets": -1,
+					"Range": 120,
+					"MaxTargets": 60,
 					"Tasks" :
 					[
-                        {
-                            "Type": "Damage",
-                            "DamageType": "Plasma",
-                            "Amount": 1
-                        },
-                        {
-							"Type": "StatusEffect",
-							"Status": "Slow",
-							"Duration" :  10,
-							"SpeedScale" : 1.0
-						},
-						{
-						"Type": "StatusEffect",
-						"Status": "MoveToPath"
-						},
-						{
-							"Type": "MultiFire",
-							"InitialOffset": 0.0,
-							"AngleIncrement": 72.0,
-							"FireCount": 15,
-							"AimAtTarget": false,
-							"Tasks":
-							[{
-			"Type":             "Projectile",
-			"GraphicName":      "cryo",
-			"NumPersists":      3,
-			"TerminateOnZeroPersists": true,
-			"CollisionType": "Once",
-			"SpinRate" : 1080,
-			
-			"Movement":
-			{
-				"Type": "MotionCurve",
-				"Curves":
-				[
-					[ [0, 0], [0, 0], [71.68, 35.2], [83.84, -17.28] ],
-					[ [83.84, -17.28], [96.64, -69.76], [28.8, -101.76], [-8.32, -7.04] ]
-				],
-				"Speed": 360,
-                "AngleOffset" : -72.0,
-				"TerminateAtEndOfCurve": true,
-				"ScaleCurvesByDirection": false
-			},
-			
-			"Tasks" :
-			[ 
-				{ 
-					"Type": "Damage", 
-					"DamageType": "Piercing", 
-					"Amount": 1 
-				} 
-			]
-		}
+						{ "Type": "Damage", "DamageType": "Plasma", "Amount": 1 },
+						{ "Type": "StatusEffect", "Status": "Stun", "Duration" : 1.0 }
 					]
 				},
 				{
-                    "Type": "Effect",
-                    "SpriteFile": "ice_explosion.json",
-                    "Scale": 1.5
-				},
-				{
-                    "Type": "Effect",
-                    "SpriteFile": "GeneralShockwave.json",
-                    "Scale": 1.5
-				}
-			]
+					"Type": "Effect",
+					"SpriteFile": "Explosion.json",
+					"Audio": "EXPLOSION",
+					"Scale": 1.0
 				}
 			]
 		}

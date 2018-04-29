@@ -1,41 +1,29 @@
 {	
     "Type":             "FanClubDart",    
-    "TargetRange":      120.0,
-	"CooldownTime":     0.6,
+    "TargetRange":      140.0,
+	"CooldownTime":     0.05,
     "FireDelayTime":    0.0,
     
     "Tasks" :
     [
 		{
-			"Type": "MultiFire",
-			"InitialOffset": -5,
-			"AngleIncrement": 10,
-			"FireCount": 2,
+			"Type":             "Projectile",
+			"GraphicName":      "dart_monkey_dart",
+			"NumPersists":      1,
+			"TerminateOnZeroPersists": true,
 			
-			"Tasks":
-			[
-				{
-					"Type": "Projectile",
-					"GraphicName": "carrot",
-					"NumPersists":      4,
-					"TerminateOnZeroPersists": true,
-					
-					"CollisionType": "Once",
-					"Radius": 4,
-					
-					"Movement":
-					{
-						"Type": "Forward",
-						"Speed": 630.0,
-						"CutOffDistance": 360
-					},
-					
-					"Tasks":
-					[ 
-						{ "Type": "Damage", "DamageType": "Plasma", "Amount": 1 }, 
-						{ "Type": "StatusEffect", "Status": "" } 
-					]
-				}
+			"CollisionType": "Once",
+			
+			"Movement":
+			{
+				"Type": "Forward",
+				"Speed": 700.0,
+				"CutOffDistance": 500
+			},
+			
+			"Tasks" :
+			[ 
+				{ "Type": "Damage", "DamageType": "Piercing", "Amount": 1 } 
 			]
 		}
 	]

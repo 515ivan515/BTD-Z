@@ -38,7 +38,7 @@
       "DisplayIcon":"rulesIcon_FreePowerups",
       "DisplayInfo":"USE WISELY",
       "DisplayName":"FREE POWERUPS",
-      "LobbyName":"Private",
-      "InGameRuleInfo": ["Use Wisely"]
+      "LobbyName":"",
+      "InGameRuleInfo": []
    }
 }

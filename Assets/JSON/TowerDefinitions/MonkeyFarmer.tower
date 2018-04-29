@@ -8,11 +8,12 @@
     "CanTargetCamo" : false,
     "DefaultWeapons" : [
         "MonkeyFarmer.weapon",
-        "FarmerMonkey.weapon"
+        "MonkeyFarmer.weapon"
     ],
     "ActiveWeaponSlots": [
         true,
-        true    ],
+        false
+    ],
     "Description" : "Farmer will auto-gather all Bananas in his radius so you don't have to! You must have a Banana Farm to use him.",
     "FireWeaponAndDestroy" : false,
     "Icon" : "farmer_avatar_small",
@@ -20,24 +21,16 @@
     "PlacementRadius" : 10.0,
     "PlacementW" : 0.0,
     "RankToUnlock" : 1,
-    "RotatesToTarget" : true,
+    "RotatesToTarget" : false,
     "DefaultSprite" : "MonkeyFarmer.json",
     "TargetIsWeaponOrigin" : false,
-    "TargetingMode" : "First",
-    "TargetsManually" : true,
+    "TargetingMode" : "None",
+    "TargetsManually" : false,
     "TypeName" : "MonkeyFarmer",
     "Upgrades" : [
         [
-            "Hot Pitchfork",
-            "Sniper Eyes",
-            "Farmer Monkey",
-            "Mega Monkey"
         ],
         [
-            "Plasma Cannon",
-            "Super Pitchforks",
-            "The Farmer League",
-            "The One"
         ]
     ],
     "UpgradeGateway" :
@@ -47,11 +40,11 @@
     ],
     "UpgradePrices" :
     [
-        [ 100, 500, 5000, 34000 ],
-        [ 200, 900, 1400, 340000 ]
+        [ 0, 0, 0, 0 ],
+        [ 0, 0, 0, 0 ]
     ],
     "UseRadiusPlacement" : true,
     "CanBePlacedMultipleTimes" : false,
     "AnimationWeaponSlotIndex": 1,
-    "CanUpgradeInMenu" : true
+    "CanUpgradeInMenu" : false
 }

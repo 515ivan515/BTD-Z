@@ -30,7 +30,7 @@
                 
                 "Tasks" :
                 [ 
-                    { "Type": "Damage", "DamageType": "Piercing", "Amount": 200 } 
+                    { "Type": "Damage", "DamageType": "Piercing", "Amount": 1 } 
                 ]
             }]
         }

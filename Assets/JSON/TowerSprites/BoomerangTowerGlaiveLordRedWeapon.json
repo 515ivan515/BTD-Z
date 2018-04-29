@@ -14,17 +14,17 @@
          "uid" : 12
       },
       {
-         "Alignment" : [ 0, 0 ],
+         "Alignment" : [ 2, 0 ],
          "Alpha" : 1.0,
          "Angle" : 0.0,
          "Colour" : 4294967295,
          "Flip" : 0,
-         "Position" : [ -1.0, 2.0 ],
+         "Position" : [ 0.0, 8.0 ],
          "Scale" : [ 1.0, 1.0 ],
          "Shown" : true,
-         "sprite" : "monkey_apprentice_hooded_wizard",
+         "sprite" : "boomerang_glaive_lord_cape",
          "type" : 1,
-         "uid" : 15
+         "uid" : 18
       },
       {
          "Alignment" : [ 2, 0 ],
@@ -34,7 +34,7 @@
          "Flip" : 0,
          "Position" : [ 0.0, 1.0 ],
          "Scale" : [ 1.0, 1.0 ],
-         "Shown" : false,
+         "Shown" : true,
          "sprite" : "boomerang_glaive_lord_head",
          "type" : 1,
          "uid" : 17
@@ -78,18 +78,18 @@
          "type" : 1,
          "uid" : 23
       },
-        {
-         "Alignment" : [ 0, 0 ],
+      {
+         "Alignment" : [ 2, 0 ],
          "Alpha" : 1.0,
          "Angle" : 0.0,
          "Colour" : 4294967295,
-         "Flip" : 0,
-         "Position" : [ -1.0, 2.0 ],
+         "Flip" : 1,
+         "Position" : [ 0.0, 8.0 ],
          "Scale" : [ 1.0, 1.0 ],
          "Shown" : true,
-         "sprite" : "monkey_apprentice_hooded_wizard",
+         "sprite" : "boomerang_glaive_lord_cape",
          "type" : 1,
-         "uid" : 15
+         "uid" : 19
       },
       {
          "Alignment" : [ 2, 0 ],
@@ -99,7 +99,7 @@
          "Flip" : 1,
          "Position" : [ 0.0, 1.0 ],
          "Scale" : [ 1.0, 1.0 ],
-         "Shown" : false,
+         "Shown" : true,
          "sprite" : "boomerang_glaive_lord_head",
          "type" : 1,
          "uid" : 20
@@ -121,7 +121,7 @@
             "Texture" : "InGame"
          },
          {
-            "SpriteInfo" : "monkey_apprentice_hooded_wizard",
+            "SpriteInfo" : "boomerang_glaive_lord_cape",
             "Texture" : "InGame"
          },
          {

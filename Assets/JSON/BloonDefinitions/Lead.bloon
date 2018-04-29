@@ -1,13 +1,13 @@
 {
 	"Type" : "Lead",
-	"InitialHealth" : 100,
+	"InitialHealth" : 1,
 	"SpriteFile" : "lead_bloon",
 	"BaseSpeed" : 70,
 	"SpeedMultiplier" : 1.2,
 	"RBE" : 23,
-    "ChildBloons" : [ "Black.bloon", "Pink.bloon", "Pink.bloon", "Pink.bloon", "Pink.bloon", "Pink.bloon", "Pink.bloon", "Pink.bloon", "Pink.bloon", "Pink.bloon", "Pink.bloon" ],
-    "StatusImmunity" : ["CrippleMOAB", "Glue", "MoveToPath", "Slow", "Ice"],
-    "DamageImmunity" : [ "IceShards" ],
-    "Scale" : 0.6,
+    "ChildBloons" : [ "Black.bloon", "Black.bloon" ],
+    "StatusImmunity" : ["CrippleMOAB", "MoveToPath"],
+    "DamageImmunity" : [ "Piercing", "Fire", "Juggernaut", "MOABMauler" ],
+    "Scale" : 0.9,
     "Radius" : 10
 }

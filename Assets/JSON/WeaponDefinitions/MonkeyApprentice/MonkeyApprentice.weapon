@@ -7,7 +7,7 @@
     "Tasks" :
     [{
         "Type":             "Projectile",
-        "GraphicName": "supermonkey_tech_terror_projectile",
+        "SpriteFile":      "apprentice_projectile.json",
         "NumPersists":      2,
 
         "TerminateOnZeroPersists": true,
@@ -23,7 +23,7 @@
         
         "Tasks" :
         [ 
-            { "Type": "Damage", "DamageType": "Plasma", "Amount": 3 }
+            { "Type": "Damage", "DamageType": "Plasma", "Amount": 1 }
         ]
     }]
 }

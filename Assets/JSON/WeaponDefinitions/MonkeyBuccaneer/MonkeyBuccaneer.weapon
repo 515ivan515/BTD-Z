@@ -14,7 +14,7 @@
             "AimAtTarget" : true,
             "Offsets" : [ [ 0, -21 ] ],
             
-            "DisabledTasks" : [ ],
+            "DisabledTasks" : [ 1 ],
 
             "Tasks" :
             [

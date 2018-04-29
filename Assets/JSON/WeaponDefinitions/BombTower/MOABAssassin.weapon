@@ -1,87 +1,80 @@
 {	
     "Type":             	"MOABAssassin",    
-    "TargetRange":      	10000,
-	"CooldownTime":     	0.0,
+    "TargetRange":      	1000,
+	"CooldownTime":     	30.0,
     "FireDelayTime":    	0.0,
-	"ManuallyFired": 		false,
-	"RequiresTargetToFire":	true,
-
-	"DisabledTasks" : [  ],
-
+	"ManuallyFired": 		true,
+	"RequiresTargetToFire":	false,
+	"TargetsIndependently": true,
+	"CanSelfTargetCamo": true,
+	"SelfTargetMode": "Strong",
+    
     "Tasks" :
     [
 		{
-			"Type":             "Projectile",
+			"Type": "Projectile",
 			"SpriteFile": "BombTowerGreenAssassin.json",
-            "LoopAnimation":    true,
-			"NumPersists":      -1,
-			"TerminateOnZeroPersists": false,
-            "Radius" : 20,
+			"NumPersists":      1,
+			"TerminateOnZeroPersists": true,
 			
 			"CollisionType": "Once",
+            "CollidesOnlyWithTarget" : true,
 			
-			"Movement":
+			"Movement" :
 			{
-				"Type": "Forward",
-				"Speed": 875.0,
-				"CutOffDistance": 500,
-                "TerminateOnCutOffEnd" : true
+				"Type": "Target",
+				"Speed": 1000,
+				"CutOffDistance": 1000,
+				"TurnSpeed": 960,
+				"TargetRange": 1000,
+				"SeekAngle": 360,
+				"TerminateOnNoTarget": true
 			},
 			
 			"Tasks" :
-			[ 
-                {
-                    "Type": "StatusEffect",
-                    "Status": "MultiLayerDamage"
-                },
-				{ 
-                    "Type": "Damage",
-                    "DamageType": "Plasma",
-                    "Amount": 4
-                }
+			[
+				{
+					"Type": "Damage",
+					"DamageType": "Plasma",
+					"Amount": 1000
+				},
+				{
+					"Type" : "TimerFire",
+					"TimeDelay" : 0.1,
+
+					"Tasks" : 
+					[
+						{
+							"Type": "AreaOfEffect",
+							"Range": 60,
+							"MaxTargets": 40,
+							"Tasks" :
+							[
+								{ 
+									"Type": "Damage",
+									"DamageType": "Explosive",
+									"Amount": 3
+								},
+								{
+									"Type" : "StatusEffect",
+									"Status" : "MultiLayerDamage"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "Effect",
+					"SpriteFile": "Explosion.json",
+					"Audio": "EXPLOSION",
+					"Scale": 1.5
+				}
 			]
 		},
-        
-        {
-            "Type": "MultiFire",
-    		"InitialOffset": 100.0,
-    		"AngleIncrement": -50.0,
-    		"FireCount": 100, 
-            "Offsets" : [ [ -9, -12 ], [ 9, -12 ] ],  
-            "AimOffsetsAtTarget" : false,
-            "Radius" : 10,
-
-            "Tasks" :
-            [{
-                "Type":             "Projectile",
-                "GraphicName":      "monkey_temple_bomb_tower_projectile",
-
-                "NumPersists":      -1,
-                "TerminateOnZeroPersists": false,
-                
-                "CollisionType": "Once",
-                
-                "Movement":
-                {
-                    "Type": "Forward",
-                    "Speed": 875.0,
-                    "CutOffDistance": 500,
-                    "TerminateOnCutOffEnd" : true
-                },
-                
-                "Tasks" :
-                [ 
-                    {
-                        "Type": "StatusEffect",
-                        "Status": "MultiLayerDamage"
-                    },
-                    { 
-                        "Type": "Damage",
-                        "DamageType": "Plasma",
-                        "Amount": 15
-                    }
-                ]
-            }]
+		{
+			"Type": "Effect",
+			"SpriteFile": "GeneralShockwave.json",
+			"DrawLayer": "FullScreen"
 		}
 	]
 }

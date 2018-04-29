@@ -7,7 +7,7 @@
     "UI": {
       "CardTextInfo": [
         {
-          "Text": "Battle each other in the most epic way possible!"
+          "Text": "Let's level the playing field"
         },
         {
           "Icon": "rulesIcon_RandomTrio_large",
@@ -15,23 +15,17 @@
           "offsetX": 60
         },
         {
-          "Text": "Gauntlet mode is a mode made by Mr.Nuke.",
+          "Text": "Both players receive the same random towers",
           "Icon": "bullet_point_glow",
           "offsetY": 30
         },
         {
-                "Icon": "warning|CENTER_X",
-                "offsetX": 0,
-                "offsetY": 5
-            },
-            {
-                "Text": "Loose a Life Every Second!",
-                "Icon": "bullet_point_glow",
-                "offsetY": 15
-            }
+          "Text": "No bonus tower",
+          "Icon": "cross"
+        }
       ],
-      "DisplayName": "Gauntlet mode!!!",
-      "DisplayInfo": "Best mod of all time",
+      "DisplayName": "RANDOM TRIO!",
+      "DisplayInfo": "???",
       "DisplayIcon": "rulesIcon_RandomTrio",
       "InGameRuleInfo": []
     },

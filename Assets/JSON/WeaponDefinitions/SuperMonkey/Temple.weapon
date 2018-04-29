@@ -1,19 +1,17 @@
 {	
     "Type":             "Temple",    
-    "TargetRange":      300.0,
-	"CooldownTime":     0.0,
+    "TargetRange":      240.0,
+	"CooldownTime":     0.058,
     "FireDelayTime":    0.0,
    
-    "DisabledTasks" : [ ],
+    "DisabledTasks" : [ 1 ],
 
     "Tasks" :
     [
 		{
 			"Type":             "Projectile",
-			"GraphicName":      "monkey_apprentice_dragon_breath_01",
-
+			"SpriteFile":       "temple_projectile.json",
             "LoopAnimation":    true,
-            "SpreadAngle":      50,
 			"NumPersists":      -1,
 			"TerminateOnZeroPersists": false,
             "Radius" : 20,
@@ -22,12 +20,10 @@
 			
 			"Movement":
 			{
-                            "Type": "Target",
-                            "Speed": 630.0,
-                            "TurnSpeed": 1440,
-                            "TargetRange": 180,
-                            "SeekAngle": 144,
-                            "CutOffDistance": 500
+				"Type": "Forward",
+				"Speed": 875.0,
+				"CutOffDistance": 500,
+                "TerminateOnCutOffEnd" : true
 			},
 			
 			"Tasks" :
@@ -39,7 +35,7 @@
 				{ 
                     "Type": "Damage",
                     "DamageType": "Plasma",
-                    "Amount": 30
+                    "Amount": 4
                 }
 			]
 		},
@@ -56,23 +52,20 @@
             "Tasks" :
             [{
                 "Type":             "Projectile",
-                "SpriteFile":       "evil.json",
+                "SpriteFile":       "evil_temple_projectile.json",
                 "LoopAnimation":    true,
-                "SpreadAngle":      50,
-                "NumPersists":      20,
-                "TerminateOnZeroPersists": true,
+                "NumPersists":      -1,
+                "TerminateOnZeroPersists": false,
                 
                 "CollisionType": "Once",
                 
-			"Movement":
-			{
-                            "Type": "Target",
-                            "Speed": 630.0,
-                            "TurnSpeed": 1440,
-                            "TargetRange": 180,
-                            "SeekAngle": 144,
-                            "CutOffDistance": 500
-			},
+                "Movement":
+                {
+                    "Type": "Forward",
+                    "Speed": 875.0,
+                    "CutOffDistance": 500,
+                    "TerminateOnCutOffEnd" : true
+                },
                 
                 "Tasks" :
                 [ 
@@ -83,7 +76,7 @@
                     { 
                         "Type": "Damage",
                         "DamageType": "Plasma",
-                        "Amount": 30
+                        "Amount": 4
                     }
                 ]
             }]

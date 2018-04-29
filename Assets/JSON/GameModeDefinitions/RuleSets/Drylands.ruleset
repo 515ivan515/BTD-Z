@@ -11,8 +11,8 @@
         }
       ],
       "DisplayName": "Drylands",
-      "DisplayInfo": "only dry maps",
-      "DisplayIcon": "combo_r3_play_with_fire_small",
+      "DisplayInfo": "",
+      "DisplayIcon": "",
       "InGameRuleInfo": [
         {
           "Text": "No water maps"

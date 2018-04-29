@@ -13,7 +13,7 @@
 			"Type" : "TowerModifier",
 			"Range":  180.0,
 			"PriorityLevel" : 2,
-			"TerminateOnUserUpgrade" : false,
+			"TerminateOnUserUpgrade" : true,
 			"Modifier" : { "CanTargetCamo": [ true, true ] }
 		}
 	]

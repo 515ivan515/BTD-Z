@@ -1,69 +1,15 @@
 {
-   "Alignment" : null,
-   "Point" : null,
    "actors" : [
-      {
-         "Alignment" : [ 2, 4 ],
-         "Alpha" : 1.0,
-         "Angle" : 0.0,
-         "Colour" : 4294967295,
-         "Flip" : 0,
-         "Position" : [ 0.0, 0.0 ],
-         "Scale" : [ 1.0, 1.0 ],
-         "Shown" : false,
-         "sprite" : "ice_tower_base_03",
-         "type" : 1,
-         "uid" : 1
-      },
-      {
-         "Alignment" : [ 2, 4 ],
-         "Alpha" : 1.0,
-         "Angle" : 0.0,
-         "Colour" : 4294967295,
-         "Flip" : 1,
-         "Position" : [ 0.0, 0.0 ],
-         "Scale" : [ 1.0, 1.0 ],
-         "Shown" : false,
-         "sprite" : "ice_tower_base_03",
-         "type" : 1,
-         "uid" : 2
-      },
-      {
-         "Alignment" : [ 2, 4 ],
-         "Alpha" : 1.0,
-         "Angle" : 0.0,
-         "Colour" : 4294967295,
-         "Flip" : 3,
-         "Position" : [ 0.0, 0.0 ],
-         "Scale" : [ 1.0, 1.0 ],
-         "Shown" : false,
-         "sprite" : "ice_tower_base_03",
-         "type" : 1,
-         "uid" : 3
-      },
-      {
-         "Alignment" : [ 2, 4 ],
-         "Alpha" : 1.0,
-         "Angle" : 0.0,
-         "Colour" : 4294967295,
-         "Flip" : 2,
-         "Position" : [ 0.0, 0.0 ],
-         "Scale" : [ 1.0, 1.0 ],
-         "Shown" : false,
-         "sprite" : "ice_tower_base_03",
-         "type" : 1,
-         "uid" : 4
-      },
       {
          "Alignment" : [ 0, 0 ],
          "Alpha" : 1.0,
          "Angle" : 0.0,
          "Colour" : 4294967295,
          "Flip" : 0,
-         "Position" : [ 0.0, 2.0 ],
+         "Position" : [ 5.0, -9.0 ],
          "Scale" : [ 1.0, 1.0 ],
          "Shown" : true,
-         "sprite" : "ice_tower_viral_frost_monkey",
+         "sprite" : "white_ninja_arm_01",
          "type" : 1,
          "uid" : 5
       },
@@ -73,59 +19,167 @@
          "Angle" : 0.0,
          "Colour" : 4294967295,
          "Flip" : 0,
-         "Position" : [ 0.0, 2.0 ],
+         "Position" : [ 5.0, -9.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : false,
+         "sprite" : "white_ninja_arm_02",
+         "type" : 1,
+         "uid" : 6
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 5.0, -9.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : false,
+         "sprite" : "white_ninja_arm_03",
+         "type" : 1,
+         "uid" : 7
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 0.0, 4.0 ],
          "Scale" : [ 1.0, 1.0 ],
          "Shown" : true,
-         "sprite" : "ice_tower_snowflake_logo",
+         "sprite" : "ninja_bloonjitsu",
          "type" : 1,
-         "uid" : 13
+         "uid" : 12
       }
    ],
-   "customvariables" : null,
+    "customvariables" : [
+                         {
+                         "VariableName" : "FirePosition",
+                         "ValueType"    : 4,
+                         "Value"        : [0.0, -11.0]
+                         }
+                         ],
    "events" : null,
    "labels" : null,
    "stageOptions" : {
       "SpriteInfo" : [
          {
-            "SpriteInfo" : "ice_tower_base_03",
+            "SpriteInfo" : "white_ninja_arm_01",
             "Texture" : "InGame"
          },
          {
-            "SpriteInfo" : "ice_tower_viral_frost_monkey",
+            "SpriteInfo" : "white_ninja_arm_02",
             "Texture" : "InGame"
          },
          {
-            "SpriteInfo" : "ice_tower_snowflake_logo",
+            "SpriteInfo" : "white_ninja_arm_03",
+            "Texture" : "InGame"
+         },
+         {
+            "SpriteInfo" : "ninja_bloonjitsu",
             "Texture" : "InGame"
          }
       ],
-      "StageLength" : 1.0,
+      "StageLength" : 0.15,
       "Version" : 1
    },
    "timelines" : [
       {
-         "spriteuid" : 10,
-         "stage" : null
-      },
-      {
-         "spriteuid" : 1,
-         "stage" : null
-      },
-      {
-         "spriteuid" : 2,
-         "stage" : null
-      },
-      {
-         "spriteuid" : 3,
-         "stage" : null
-      },
-      {
-         "spriteuid" : 4,
+         "spriteuid" : 12,
          "stage" : null
       },
       {
          "spriteuid" : 5,
-         "stage" : null
+         "stage" : [
+            {
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ 5.0, -9.0 ],
+               "Scale" : [ 1.0, 1.0 ],
+               "Shown" : true,
+               "Time" : 0.0
+            },
+            {
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ 5.0, -9.0 ],
+               "Scale" : [ 1.0, 1.0 ],
+               "Shown" : false,
+               "Time" : 0.05442176759243012
+            }
+         ]
+      },
+      {
+         "spriteuid" : 6,
+         "stage" : [
+            {
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ 5.0, -9.0 ],
+               "Scale" : [ 1.0, 1.0 ],
+               "Shown" : false,
+               "Time" : 0.0
+            },
+            {
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ 5.0, -9.0 ],
+               "Scale" : [ 1.0, 1.0 ],
+               "Shown" : true,
+               "Time" : 0.0952380970120430
+            }
+         ]
+      },
+      {
+         "spriteuid" : 7,
+         "stage" : [
+            {
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ 5.0, -9.0 ],
+               "Scale" : [ 1.0, 1.0 ],
+               "Shown" : false,
+               "Time" : 0.0
+            },
+            {
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ 5.0, -9.0 ],
+               "Scale" : [ 1.0, 1.0 ],
+               "Shown" : true,
+               "Time" : 0.05442176759243012
+            },
+            {
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ 5.0, -9.0 ],
+               "Scale" : [ 1.0, 1.0 ],
+               "Shown" : false,
+               "Time" : 0.0952380970120430
+            }
+         ]
       }
    ]
 }

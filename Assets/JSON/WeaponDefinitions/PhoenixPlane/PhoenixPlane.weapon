@@ -1,50 +1,38 @@
 {	
     "Type":             "PhoenixPlane",    
-    "TargetRange":      240.0,
-	"CooldownTime":     0.0,
-    "FireDelayTime":    0.1,
-    "TargetsIndependently": true,
+    "TargetRange":      320,
+	"CooldownTime":     0.04285714285,
+    "FireDelayTime":    0.0,
     
-    "Tasks" :
-    [
-		{
-			"Type":             "Projectile",
-			"GraphicName":      "monkey_temple_bomb_tower_projectile",
-			"NumPersists":      1,
-			"TerminateOnZeroPersists": true,
-			"CollisionType": "Once",
-			
-			"Movement": 
-			{
-				"Type": "Forward",
-				"Speed": 600.0,
-				"CutOffDistance": 1000
-			},
-			
-			"Tasks" :
-			[ 
-				{
-					"Type": "AreaOfEffect",
-					"Range": 200,
-					"MaxTargets": 200,
-					"Tasks" :
-					[
-						{ 
-							"Type": "Damage",
-							"DamageType": "Plasma",
-							"Amount": 35						}
-					]
-				},
-				{
-					"Type": "Effect",
-					"SpriteFile": "Explosion.json",
-					"Audio": "EXPLOSION",
-					"Scale": 0.55				},
-				{
-                    "Type": "Effect",
-                    "SpriteFile": "GeneralShockwave.json",
-                    "Scale": 0.55				}
-			]
-		}
-	]
+    "Tasks"	:
+    [{
+        "Type":             "Projectile",
+        "GraphicName":      "monkey_apprentice_dragon_breath_01",
+        "NumPersists":      5,
+        "LoopAnimation":    false,
+        "HasLimitedDuration": true,
+        "LimitedDuration":  0.8,
+        
+        "TerminateOnZeroPersists": true,
+        "CollisionType": "Once",
+        
+        "Movement":
+        {
+            "Type": "Forward",
+            "Speed": 460.0,
+            "CutOffDistance": 320,
+            "TerminateOnCutOffEnd" : false
+        },
+
+        "TasksToProcessOnCollision" : [ 0, 1 ],
+        "TasksToProcessOnTerminate" : [ 1 ],
+
+        "Tasks" :
+        [ 
+            { "Type": "Damage", "DamageType": "Plasma", "Amount": 1 },
+            { "Type": "Damage", "DamageType" : "MOABMauler", "Amount": 1},
+            { "Type": "Effect", "UseDirection": true, "SpriteFile": "apprentice_dragon_breath.json", "DrawLayer" : "UnderTowers" }
+        ]
+    }]
 }
+

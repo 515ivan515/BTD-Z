@@ -29,6 +29,42 @@
             }
         },
         {
+            "Name" : "Laser Cannon",
+            "WeaponUpgrade" :
+            {
+                "Replace" :
+                {
+                    "CooldownTime" : 0.086
+                },
+
+                "TaskUpgrade" :
+                [
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" :    "Projectile"
+                    },
+                    {
+                        "Operation" : "Adjust",
+                        "NumPersists" : 12
+                    },
+                    {
+                        "Operation" : "Replace",
+                        "GraphicName" : "dartling_gun_laser",
+                        "Radius" : 5,
+                        "SpreadAngle": 8
+                    },
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" :    "Damage"
+                    },
+                    {
+                        "Operation" : "Replace",
+                        "DamageType" : "Fire"
+                    }
+                ]
+            }
+        },
+        {
             "Name" : "Ray Of Doom",
             
             "TowerUpgrade" :
@@ -60,34 +96,9 @@
                     }
                 ]
             }
-	},
-        {
-            "Name" : "Hot Laser",
-            "WeaponUpgrade" :
-            {
-				"Adjust" :
-				{
-					"CooldownTime" : -0.1
-				},
-                "TaskUpgrade" :
-                [
-                    {
-                        "Operation" : "SelectByType",
-                        "Type" :    "MultiFire"
-                    },
-                    
-                    {
-                        "Operation" : "Replace",
-                        "FireCount" : 13,
-                        "InitialOffset" : -28,
-                        "AngleIncrement" : 11,
-                        "Offsets" : [ [ -15, 0 ], [ -12.5, 0 ], [ -10, 0 ], [ -7.5, 0 ], [ -5, 0 ], [ -2.5, 0 ], [ 0, 0 ], [ 2.5, 0 ], [ 5, 0 ], [ 7.5, 0 ], [ 10, 0 ], [ 12.5, 0 ], [ 15, 0 ] ]
-                    }
-                ]
-            }
         },
         {
-               "Name" : "Powerful Darts",
+            "Name" : "Powerful Darts",
             "WeaponUpgrade" :
             {
                 "TaskUpgrade" :
@@ -99,12 +110,22 @@
                     {
                         "Operation" : "Adjust",
                         "NumPersists" : 3,
-                        "Movement":
-                        {
-                            "Type": "Forward",
-                            "Speed" : 350
-                        }
-                    },
+						"Movement":
+						{
+							"Type": "Forward",
+	                        "Speed" : 350
+						}
+                    }
+                ]
+            }
+
+        },
+        {
+            "Name" : "Depleted Bloontonium",
+            "WeaponUpgrade" :
+            {
+                "TaskUpgrade" :
+                [
                     {
                         "Operation" : "SelectByType",
                         "Type" :    "Damage"
@@ -114,18 +135,6 @@
                         "DamageType" : "Plasma"
                     }
                 ]
-            }
-
-        },
-        {
-            "Name" : "Auto Aim",
-            "TowerUpgrade" :
-            {
-                "Replace" :
-                {
-                    "TargetingMode" : "First",
-                    "RotatesToTarget" : true
-                }
             }
 
         },

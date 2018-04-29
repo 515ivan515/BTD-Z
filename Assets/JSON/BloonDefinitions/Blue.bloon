@@ -8,6 +8,6 @@
     "ChildBloons" : [ "Red.bloon" ],
     "StatusImmunity" : ["CrippleMOAB"],
     "DamageImmunity" : ["Juggernaut", "MOABMauler", "Foam"],
-	"Scale" : 0.40,
+	"Scale" : 0.85,
     "Radius" : 11.05
 }

@@ -1,8 +1,8 @@
 {
 	"Type" : "Green",
-	"InitialHealth" : 3,
+	"InitialHealth" : 1,
 	"SpriteFile" : "green_bloon",
-	"BaseSpeed" : 300,
+	"BaseSpeed" : 70,
 	"SpeedMultiplier" : 1.8,
 	"RBE" : 3,
     "ChildBloons" : [ "Blue.bloon" ],

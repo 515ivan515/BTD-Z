@@ -1,190 +1,26 @@
 {
-	"Setup"	: {
-		"Health" : 170,
-		"Money" : 650.0,
-        "MoneyModifier" : 1.0,
-        "StartRound" : 0,
-		"RoundFiles" : [
-			"Default/Default.rounds"
-		],
-		"Inventory" : [
-		]
-	},
-	
-	"Rules" : {
-        "CanSendBloons" : true,
-        "UseCustomInGameHUD" : false,
-        "ReturnToLobbyAfterGame" : true,
-		"AllowPause" : false,
-		"AutoResume" : true,
-        "UseGameController" : "",
-        "OpponentInitialHealth" : 150,
-        "ApplyAchievementProgress" : true,
-        "InitialRoundDelay" : 6,
-        "DifficultyBloonSpeedRound":31,
-        "DifficultyMOABHealthRound":31,
-        "DifficultyMOABFullStrengthRound":30,
-        "DifficultyBloonSpeedIncreasePerRound":0.2,
-        "DifficultyMOABHealthIncreasePerRound":0.4,
-        "BloonSpawnSendToSelf":false,
-		"BloonSpawnIncomeMul":1.0,
-		"CollectableIncomeMul":1.0,
-        "BloonSpawnTimeMul": 0.666666,
-        "BloonSpawnGapMul": 1.0,
-        "CanEarnMoney" : false,
-		"PauseBetweenRounds" : true,
-		"TargetRound" : 75,
-        "BloonUnlockRoundOffset" : 2,
-        "BloonUnlockRoundMultiplier" : 1.0,
-        "CamoUnlockRound" : 12,
-		"RegenUnlockRound" : 8,
-		"CamoCostMod" : 2.2,
-		"RegenCostMod" : 1.8,
-		"Reward" : {
-			"WinBattleScore" : 10,
-			"WinMedallions" : 5,
-            "WinMedallionsNoLivesLost" : 2,
-			"LossBattleScore" : 2,
-			"LossMedallions" : 2
-		},
-        "TowerBoostEnergyCost" : 1,
-        "TowerBoostLimit" : -1,
-        "TowerBoostDuration" : 12,
-        "TowerBoostCooldownMin" : 15,
-        "TowerBoostCooldownMax" : 30,
-        "TowerBoostCooldownMultiplier" : 0.5555555556,
-        "BloonBoostEnergyCost" : 1,
-        "BloonBoostLimit" : -1,
-        "BloonBoostDuration" : 12,
-        "BloonBoostCooldownMin" : 10,
-        "BloonBoostCooldownMax" : 30,
-        "BloonBoostMultipler" : 1.2,
-        "RedHotSpikesEnergyCost" : 1,
-        "RedHotSpikesLimit" : 10,
-        "UnlockAllRanksTo" : 0,
-        "MaxUpgradePath1" : -1,
-        "MaxUpgradePath2" : -1,
-        "GiveCashTimer" : 4.0,
-		"GiveCashAmount" : 250,
-        "GiveCashAmountModifier" : 1.0,
-		"MinGiveCashAmount" : 0,
-        "MaxGiveCashAmount" : -1,
-		"MonkeyTownIncomeMultiplier" : 0.2,
-		"PriceModifier" : 1.0,
-        "SellPriceModifier" : 0.8,
-		"RoundPriceModifier" : 0.0,
-		"RoundSellPriceModifier" : 0.0,
-		"CompoundRoundPrice" : false,
-		"CompoundRoundSellPrice" : false,
-		"SpeedModifier" : 0.0,
-		"TowerLifespan" : -1,
-        "CanSellAnyTowers" : true,
-		"CanUpgradeTowers" : true,
-		"ConsumeMostExpensiveTowerRounds" : -1,
-		"MaxNumberOfEachTower" : -1,
-		"MaxNumberOfTotalTowers" : -1,
-		"UnlockAllTowers" : false,
-		"LockedTowers" : [
-		],
-		"LockedUpgrades" : [
-		],
-		"BloonsForcedCamo" : [
-		],
-		"BlockedPremiumUpgrades" : [
-		],
-		"BlockedSpecialties" : [
-		],
-		"BlockedLabUpgrades" : [
-        ],
-        "BloonInitialHealthModifier" : {
-        },
-        "BloonLevelOffsets" : [
-        ],
-		"TowersAutoUpgrade" : false,
-        "TowerBoostIgnoreDefaultBehaviour" : false,
-        "TowerBoostUpgradeTower" : false,
-        "TowerBoostUpgradeTowerCount" : -1,
-        "TowerBoostUpgradePath" : -1,
-		"BloonSendQueueSize": 5,
-        "BloonBoostIgnoreDefaultBehaviour" : false,
-        "BloonBoostUpgradeSendBloons" : false,
-		"BloonBoostUpgradeWaveBloons" : false,
-		"LoseLivesGracePeriod" : 9999999999,
-		"LoseLivesTimer" : 1.0,
-		"LoseLivesAmount" : 1,
-		"DisableRegenBloons" : false,
-        "WinMedallionsMod" : 1,
-        "WinStreakMedallionsMod" : 1,
-		"WinStreakMedallionsMax" : -1,
-		"StartMatchAfterGame" : false,
-		"LoadTutorialScreens" : false,
-		"TipsScreen" : "",
-		"UseCards" : false,
-		"CardTrashLockDurationSecs": 3.0,
-		"CardTrashCost": 50,
-        "UseCustomDeck" : false,
-        "ForceStartingHand" : true	},
-
-    "LobbyRules" : {
-        "RecordGame" : true,
-        "CanSpy" : true,
-        "CanSkipMap" : true,
-		"CanChooseMap" : false,
-		"LoadoutType" : "Towers",
-		"CanRandomiseTowers" : true,
-		"ForceRandomiseTowers" : false,
-		"ForceRandomiseTowersSame" : false,
-        "CanRollLottery" : false,
-        "ShouldShowMedallions" : false,
-        "ShouldAddRoadSpikes" : true,
-        "ShouldAllowMonkeyFarmer" : true,
-        "ShouldShowOpponentsTowers" : true,
-        "CanVetoOpponentsTowers" : false,
-        "VetoOpponentsTowersCount" : 3,
-        "ShouldForceSameLastTower" : fasle,
-		"AwardLossOnQuit" :		true,
-		"AwardWinOnOpponentQuit" :	true,
-        "CostToQuit" :          2,
-        "CostToSpy" :           2,
-        "CostToSkipMap" :       2,
-        "CostToRollLottery" :   -1,
-        "CostToRerollLottery" : -1,
-        "Countdown" :           10,
-        "MaxMapSkips" :         2,
-        "MaxLotteryRolls" :    -1,
-        "LockedTowers" : [
-        ],
-        "ForcedTowers" : [
-        ],
-        "SelectableTrackList" : [
-		],
+	 "LobbyRules" : {
+        "CanRandomiseTowers": false,
+        "ForceRandomiseTowers": true,
+        "ForceRandomiseTowersSame": true,
+        "CanRollLottery": false,
         "RandomTowerSlotInfo": [
             {
-                "MinCost": -1,
-                "MaxCost": -1
+                "MinCost": 0,
+                "MaxCost": 650
             },
             {
-                "MinCost": -1,
-                "MaxCost": -1
+                "MinCost": 0,
+                "MaxCost": -1,
+                "CamoDetect" : true
             },
             {
-                "MinCost": -1,
+                "MinCost": 650,
                 "MaxCost": -1
             }
-        ],
-		"UseCustomMapBorder" : true,
-		"AllowRematch" : true,
-		"HasLiveOpponent" : true,
-		"HasOpponent" : true,
-		"UseTimer" : true,
-		"OpponentName" : "",
-		"OpponentDecal" : "",
-		"ForcedLastTower" : "BananaFarm",
-		"SelectableTowerCount" : 5,
-		"ShowOpponentOnlineStatus" : false,
-		"SendPlayerStatsRequest" : true,
-		"AllowQuitOnWaitToJoin" : false,
-		"WaitOnClientJoin" : true,
-        "AllowEditDeck": true
+        ]
+    },
+    "Rules" : {
+        "UnlockAllRanksTo" : 4
     }
 }

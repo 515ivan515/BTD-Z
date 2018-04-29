@@ -1,4 +1,6 @@
 {
+   "Alignment" : null,
+   "Point" : null,
    "actors" : [
       {
          "Alignment" : [ 0, 0 ],
@@ -7,22 +9,35 @@
          "Colour" : 4294967295,
          "Flip" : 0,
          "Position" : [ 0.0, 0.0 ],
-         "Scale" : [ 1.0, 1.0 ],
+         "Scale" : [ 2.0, 2.0 ],
          "Shown" : true,
-         "sprite" : "pineapple",
-         "type" : 1,
-         "uid" : 1
+         "sprite" : "Sub40_BloontoniumReactorRadiationAnimation.json",
+         "type" : 2,
+         "uid" : 3
       },
       {
-         "Alignment" : [ 0, 0 ],
+         "Alignment" : [ 2, 0 ],
          "Alpha" : 1.0,
          "Angle" : 0.0,
          "Colour" : 4294967295,
          "Flip" : 0,
-         "Position" : [ -2.0, 6.0 ],
+         "Position" : [ 0.0, 0.0 ],
          "Scale" : [ 1.0, 1.0 ],
-         "Shown" : false,
-         "sprite" : "pineapple_text_01",
+         "Shown" : true,
+         "sprite" : "submarine_bloontonium_reactor",
+         "type" : 1,
+         "uid" : 1
+      },
+      {
+         "Alignment" : [ 2, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 1,
+         "Position" : [ 0.0, 0.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "submarine_bloontonium_reactor",
          "type" : 1,
          "uid" : 2
       },
@@ -32,24 +47,11 @@
          "Angle" : 0.0,
          "Colour" : 4294967295,
          "Flip" : 0,
-         "Position" : [ -1.0, 5.0 ],
+         "Position" : [ 0.0, 25.0 ],
          "Scale" : [ 1.0, 1.0 ],
-         "Shown" : false,
-         "sprite" : "pineapple_text_02",
-         "type" : 1,
-         "uid" : 5
-      },
-      {
-         "Alignment" : [ 0, 0 ],
-         "Alpha" : 1.0,
-         "Angle" : 0.0,
-         "Colour" : 4294967295,
-         "Flip" : 0,
-         "Position" : [ -1.0, 5.0 ],
-         "Scale" : [ 1.0, 1.0 ],
-         "Shown" : false,
-         "sprite" : "pineapple_text_03",
-         "type" : 1,
+         "Shown" : true,
+         "sprite" : "SubShipLight.json",
+         "type" : 2,
          "uid" : 4
       }
    ],
@@ -59,132 +61,37 @@
    "stageOptions" : {
       "SpriteInfo" : [
          {
-            "SpriteInfo" : "pineapple",
+            "SpriteInfo" : "Sub40_BloontoniumReactorRadiationAnimation.json",
             "Texture" : "InGame"
          },
          {
-            "SpriteInfo" : "pineapple_text_01",
+            "SpriteInfo" : "submarine_bloontonium_reactor",
             "Texture" : "InGame"
          },
          {
-            "SpriteInfo" : "pineapple_text_02",
-            "Texture" : "InGame"
-         },
-         {
-            "SpriteInfo" : "pineapple_text_03",
+            "SpriteInfo" : "SubShipLight.json",
             "Texture" : "InGame"
          }
       ],
-      "StageLength" : 3.05,
+      "StageLength" : 20.0,
       "Version" : 1
    },
    "timelines" : [
+      {
+         "spriteuid" : 3,
+         "stage" : null
+      },
       {
          "spriteuid" : 1,
          "stage" : null
       },
       {
          "spriteuid" : 2,
-         "stage" : [
-            {
-               "Alignment" : [ 0, 0 ],
-               "Alpha" : 1.0,
-               "Angle" : 0.0,
-               "Colour" : 4294967295,
-               "Flip" : 0,
-               "Position" : [ -2.0, 6.0 ],
-               "Scale" : [ 1.0, 1.0 ],
-               "Shown" : false,
-               "Time" : 0.0
-            },
-            {
-               "Alignment" : [ 0, 0 ],
-               "Alpha" : 1.0,
-               "Angle" : 0.0,
-               "Colour" : 4294967295,
-               "Flip" : 0,
-               "Position" : [ -2.0, 6.0 ],
-               "Scale" : [ 1.0, 1.0 ],
-               "Shown" : true,
-               "Time" : 2.054421663284302
-            }
-         ]
-      },
-      {
-         "spriteuid" : 5,
-         "stage" : [
-            {
-               "Alignment" : [ 0, 0 ],
-               "Alpha" : 1.0,
-               "Angle" : 0.0,
-               "Colour" : 4294967295,
-               "Flip" : 0,
-               "Position" : [ -1.0, 5.0 ],
-               "Scale" : [ 1.0, 1.0 ],
-               "Shown" : false,
-               "Time" : 0.0
-            },
-            {
-               "Alignment" : [ 0, 0 ],
-               "Alpha" : 1.0,
-               "Angle" : 0.0,
-               "Colour" : 4294967295,
-               "Flip" : 0,
-               "Position" : [ -1.0, 5.0 ],
-               "Scale" : [ 1.0, 1.0 ],
-               "Shown" : true,
-               "Time" : 1.047619104385376
-            },
-            {
-               "Alignment" : [ 0, 0 ],
-               "Alpha" : 1.0,
-               "Angle" : 0.0,
-               "Colour" : 4294967295,
-               "Flip" : 0,
-               "Position" : [ -1.0, 5.0 ],
-               "Scale" : [ 1.0, 1.0 ],
-               "Shown" : false,
-               "Time" : 2.054421663284302
-            }
-         ]
+         "stage" : null
       },
       {
          "spriteuid" : 4,
-         "stage" : [
-            {
-               "Alignment" : [ 0, 0 ],
-               "Alpha" : 1.0,
-               "Angle" : 0.0,
-               "Colour" : 4294967295,
-               "Flip" : 0,
-               "Position" : [ -1.0, 5.0 ],
-               "Scale" : [ 1.0, 1.0 ],
-               "Shown" : false,
-               "Time" : 0.0
-            },
-            {
-               "Alignment" : [ 0, 0 ],
-               "Alpha" : 1.0,
-               "Angle" : 0.0,
-               "Colour" : 4294967295,
-               "Flip" : 0,
-               "Position" : [ -1.0, 6.0 ],
-               "Scale" : [ 1.0, 1.0 ],
-               "Shown" : true,
-               "Time" : 0.05442176759243012
-            },
-            {
-               "Alignment" : [ 0, 0 ],
-               "Alpha" : 1.0,
-               "Angle" : 0.0,
-               "Colour" : 4294967295,
-               "Flip" : 0,
-               "Position" : [ -1.0, 6.0 ],
-               "Scale" : [ 1.0, 1.0 ],
-               "Shown" : false,
-               "Time" : 1.047619104385376
-            }
-         ]
+         "stage" : null
       }
    ]
 }

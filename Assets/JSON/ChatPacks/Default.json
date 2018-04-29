@@ -4,57 +4,57 @@
 	[
 		{
 			"Type"			:	"Text",
-			"MessageData" 	: 	"Buy My Merch!",
+			"MessageData" 	: 	"Hi!",
 			"Location"		: 	[ "Lobby", "Game" ]
 		},
 		{
 			"Type"			:	"Text",
-			"MessageData" 	: 	"Mod By Mr.Nuke",
+			"MessageData" 	: 	"Oops!",
 			"Location"		: 	[ "Game", "Rematch" ]
 		},
 		{
 			"Type"			:	"Text",
-			"MessageData" 	: 	"What Do You Meaaaan!",
+			"MessageData" 	: 	"Destroy!",
 			"Location"		: 	[ "Game" ]
 		},
 		{
 			"Type"			:	"Text",
-			"MessageData" 	: 	"Oof!",
+			"MessageData" 	: 	"Sorry!",
 			"Location"		: 	[ "Game", "Rematch" ]
 		},
 		{
 			"Type"			:	"Text",
-			"MessageData" 	: 	"U suck!",
+			"MessageData" 	: 	"Well done!",
 			"Location"		: 	[ "Game", "Rematch" ]
 		},
 		{
 			"Type"			:	"Text",
-			"MessageData" 	: 	"1 on 1!",
+			"MessageData" 	: 	"Good luck!",
 			"Location"		: 	[ "Lobby" ]
 		},
 		{
 			"Type"			:	"Text",
-			"MessageData" 	: 	"2 slow 4 u!",
+			"MessageData" 	: 	"Late game!",
 			"Location"		: 	[ "Lobby" ]
 		},
 		{
 			"Type"			:	"Text",
-			"MessageData" 	: 	"lololololololol",
+			"MessageData" 	: 	"Bring it on!",
 			"Location"		: 	[ "Lobby" ]
 		},
 		{
 			"Type"			:	"Text",
-			"MessageData" 	: 	"Leave a Like!",
-			"Location"		: 	[ "Game" ]
+			"MessageData" 	: 	"Get ready!",
+			"Location"		: 	[ "Lobby" ]
 		},
 		{
 			"Type"			:	"Text",
-			"MessageData" 	: 	"Cool",
+			"MessageData" 	: 	"Thanks!",
 			"Location"		: 	[ "Rematch" ]
 		},
 		{
 			"Type"			:	"Text",
-			"MessageData" 	: 	"Subscribe!",
+			"MessageData" 	: 	"Good game!",
 			"Location"		: 	[ "Rematch" ]
 		},
 		{

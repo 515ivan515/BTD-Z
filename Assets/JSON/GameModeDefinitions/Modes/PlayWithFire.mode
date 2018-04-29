@@ -1,5 +1,6 @@
 {
-    "Rules" : {
-        "CanSellAnyTowers":false
-    }
+	"Rules" : {
+        "BloonSpawnIncomeMul": 2.0,
+        "BloonSpawnSendToSelf":true
+	}
 }

@@ -12,7 +12,7 @@
     "Tasks": [
         {
             "Type": "Projectile",
-            "GraphicName":      "pineapple",
+            "SpriteFile": "submarine_dart.json",
             "TerminateOnZeroPersists": true,
             "CollisionType": "Once",
             "NumPersists": 1,
@@ -39,11 +39,11 @@
                     "InitialOffset": -22,
                     "AngleIncrement": 22,
                     "AimAtTarget": true,
-                    "FireCount": 6,
+                    "FireCount": 3,
                     "Tasks": [
                         {
                             "Type": "Projectile",
-                            "GraphicName":      "pineapple",
+                            "SpriteFile": "submarineAirBurst.json",
                             "TerminateOnZeroPersists": true,
                             "CollisionType": "Once",
                             "NumPersists": 3,
@@ -55,8 +55,8 @@
                             "Tasks": [
                                 {
                                     "Type": "Damage",
-                                    "DamageType": "Plasma",
-                                    "Amount": 30
+                                    "DamageType": "Piercing",
+                                    "Amount": 1
                                 }
                             ]
                         }

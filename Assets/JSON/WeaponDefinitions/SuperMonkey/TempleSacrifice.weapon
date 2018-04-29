@@ -1,6 +1,6 @@
 {	
     "Type":             "TempleSacrifice",    
-    "TargetRange":      0.0,
+    "TargetRange":      140.0,
 	"CooldownTime":     0.0,
     "FireDelayTime":    0.0,
     "RequiresTargetToFire":	false,
@@ -10,7 +10,7 @@
     [
 		{
 			"Type": "Sacrifice",
-            "SpriteFile": "",
+            "SpriteFile": "SuperMonkeyTempleSpawn.json",
             "Tasks" :
             [
                 {
@@ -28,7 +28,7 @@
 		},
         {
             "Type" : "AddChildSprite",
-            "SpriteName": ""
+            "SpriteName": "SuperMonkeyTemple.json"
         }
 	]
 }

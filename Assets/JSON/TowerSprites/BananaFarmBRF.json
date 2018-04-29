@@ -35,9 +35,9 @@
          "Position" : [ 0.0, -7.0 ],
          "Scale" : [ 1.0, 1.0 ],
          "Shown" : true,
-         "sprite" : "candy_factory",
+         "sprite" : "banana_farm_research_facility",
          "type" : 1,
-         "uid" : 21
+         "uid" : 3
       },
       {
          "Alignment" : [ 0, 0 ],
@@ -76,7 +76,7 @@
             "Texture" : "InGame"
          },
          {
-            "SpriteInfo" : "candy_factory",
+            "SpriteInfo" : "banana_farm_research_facility",
             "Texture" : "InGame"
          },
          {

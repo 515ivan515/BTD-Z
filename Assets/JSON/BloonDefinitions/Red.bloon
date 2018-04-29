@@ -1,6 +1,6 @@
 {
 	"Type" : "Red",
-	"InitialHealth" : 2,
+	"InitialHealth" : 1,
 	"SpriteFile" : "red_bloon",
 	"BaseSpeed" : 70,
 	"SpeedMultiplier" : 1,

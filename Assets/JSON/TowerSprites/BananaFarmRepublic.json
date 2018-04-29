@@ -9,7 +9,7 @@
          "Position" : [ 0.0, 0.0 ],
          "Scale" : [ 1.0, 1.0 ],
          "Shown" : true,
-         "sprite" : "candy_house",
+         "sprite" : "banana_farm_republic",
          "type" : 1,
          "uid" : 1
       },
@@ -34,10 +34,6 @@
       "SpriteInfo" : [
          {
             "SpriteInfo" : "banana_farm_republic",
-            "Texture" : "InGame"
-         } ,
-         {
-            "SpriteInfo" : "candy_house",
             "Texture" : "InGame"
          }
       ],

@@ -14,7 +14,7 @@
 		{
 			"Type" : "PlayerDamage",
 			"Amount" : 2,
-			"MinHealth" : 5,
+			"MinHealth" : 1,
 
 			"Tasks"	 : [
 				{

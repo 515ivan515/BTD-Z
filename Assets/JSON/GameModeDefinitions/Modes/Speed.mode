@@ -1,5 +1,10 @@
 {
-    "Rules" : {
-        "RoundPriceModifier":0.2
-    }
+	"Rules" : {
+        "GiveCashTimer":4.2,
+        "BloonSpawnTimeMul":0.4666662,
+        "BloonSpawnGapMul":0.7,
+        "SpeedModifier":0.4,
+        "BloonUnlockRoundOffset":0,
+        "BloonUnlockRoundMultiplier":1
+	}
 }

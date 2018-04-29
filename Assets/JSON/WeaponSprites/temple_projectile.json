@@ -11,7 +11,7 @@
          "Position" : [ 0.0, 0.0 ],
          "Scale" : [ 1.0, 1.0 ],
          "Shown" : true,
-         "sprite" : "evil_monkey_temple_projectile_01",
+         "sprite" : "monkey_temple_main_projectile_01",
          "type" : 1,
          "uid" : 9
       },
@@ -24,7 +24,7 @@
          "Position" : [ 0.0, 0.0 ],
          "Scale" : [ 1.0, 1.0 ],
          "Shown" : false,
-         "sprite" : "evil_monkey_temple_projectile_02",
+         "sprite" : "monkey_temple_main_projectile_02",
          "type" : 1,
          "uid" : 10
       },
@@ -37,7 +37,7 @@
          "Position" : [ 0.0, 0.0 ],
          "Scale" : [ 1.0, 1.0 ],
          "Shown" : false,
-         "sprite" : "evil_monkey_temple_projectile_03",
+         "sprite" : "monkey_temple_main_projectile_03",
          "type" : 1,
          "uid" : 11
       },
@@ -50,7 +50,7 @@
          "Position" : [ 0.0, 0.0 ],
          "Scale" : [ 1.0, 1.0 ],
          "Shown" : false,
-         "sprite" : "evil_monkey_temple_projectile_04",
+         "sprite" : "monkey_temple_main_projectile_04",
          "type" : 1,
          "uid" : 12
       },
@@ -63,7 +63,7 @@
          "Position" : [ 0.0, 0.0 ],
          "Scale" : [ 1.0, 1.0 ],
          "Shown" : false,
-         "sprite" : "evil_monkey_temple_projectile_05",
+         "sprite" : "monkey_temple_main_projectile_05",
          "type" : 1,
          "uid" : 13
       }
@@ -74,23 +74,23 @@
    "stageOptions" : {
       "SpriteInfo" : [
          {
-            "SpriteInfo" : "evil_monkey_temple_projectile_01",
+            "SpriteInfo" : "monkey_temple_main_projectile_01",
             "Texture" : "InGame"
          },
          {
-            "SpriteInfo" : "evil_monkey_temple_projectile_02",
+            "SpriteInfo" : "monkey_temple_main_projectile_02",
             "Texture" : "InGame"
          },
          {
-            "SpriteInfo" : "evil_monkey_temple_projectile_03",
+            "SpriteInfo" : "monkey_temple_main_projectile_03",
             "Texture" : "InGame"
          },
          {
-            "SpriteInfo" : "evil_monkey_temple_projectile_04",
+            "SpriteInfo" : "monkey_temple_main_projectile_04",
             "Texture" : "InGame"
          },
          {
-            "SpriteInfo" : "evil_monkey_temple_projectile_05",
+            "SpriteInfo" : "monkey_temple_main_projectile_05",
             "Texture" : "InGame"
          }
       ],

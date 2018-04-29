@@ -3,7 +3,7 @@
 	"BloonType" : "MOAB",
 	"Quantity" : 1,
 	"Interval" : 0.5,
-	"Cost" : 15000,
+	"Cost" : 1500,
 	"IncomeChange" : -56,
 	"UnlockRound" : 18
 }

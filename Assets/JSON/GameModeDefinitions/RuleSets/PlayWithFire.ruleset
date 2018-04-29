@@ -7,7 +7,7 @@
     "UI": {
       "CardTextInfo": [
         {
-          "Text": "Cant Sell Towers!|CENTER_X"
+          "Text": "Don't get burned|CENTER_X"
         },
         {
           "Icon": "rulesIcon_PlayWithFire_large|CENTER_X",
@@ -48,8 +48,8 @@
           "offsetY": 15
         }
       ],
-      "DisplayName": "GOOD PLACEMENT = GOOD CHANCE",
-      "DisplayInfo": "Dont misplace your towers!",
+      "DisplayName": "PLAY WITH FIRE",
+      "DisplayInfo": "RISK / REWARD",
       "DisplayIcon": "rulesIcon_PlayWithFire"
     },
     "version": "1.0"

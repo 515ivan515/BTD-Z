@@ -1,30 +1,35 @@
 {	
     "Type":             "SentryGun",    
-    "TargetRange":      120.0,
-	"CooldownTime":     0.4,
-    "FireDelayTime":    0.0,
+    "TargetRange":      161.0,
+	"CooldownTime":     0.66,
+    "FireDelayTime":    0.2,
     
     "Tasks" :
     [
 		{
 			"Type":             "Projectile",
-			"GraphicName":      "grape",
-			"NumPersists":      7,
-            "SpreadAngle":      7,
-
+			"GraphicName":      "engineer_nail",
+			"NumPersists":      2,
 			"TerminateOnZeroPersists": true,
+			
 			"CollisionType": "Once",
 			
-			"Movement":
+			"Movement" :
 			{
 				"Type": "Forward",
-				"Speed": 185.0,
-				"CutOffDistance": 300,
-                "TerminateOnCutOffEnd" : true			},
-
+				"Speed": 805.0,
+				"CutOffDistance": 161
+			},
+			
+			"TasksToProcessOnCollision" : [ 0 ],
+            
 			"Tasks" :
-			[ 
-				{ "Type": "Damage", "DamageType": "Plasma", "Amount": 13 }
+			[
+				{ 
+					"Type": "Damage",
+					"DamageType": "Piercing",
+					"Amount": 1 
+				}
 			]
 		}
 	]
