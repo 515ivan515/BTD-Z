@@ -1,38 +1,105 @@
 {	
-    "Type":             "Dragonbreath",    
-    "TargetRange":      120.0,
-	"CooldownTime":     0.07,
-    "FireDelayTime":    0.0,
+    "Type":             "Dragonbreath",
+    "TargetRange":      500.0,
+	"CooldownTime":     0.80,
+    "FireDelayTime":    0.2,
     
     "Tasks" :
     [
 		{
-			"Type":             "Projectile",
-			"GraphicName":      "monkey_apprentice_dragon_breath_01",
-			"NumPersists":      3,
-            "LoopAnimation":    false,
-            "SpreadAngle":      30,
-            "HasLimitedDuration" : true,
-            "LimitedDuration" : 0.4,
-
+			"Type":            "Projectile",
+			"SpriteFile":      "evil_temple_projectile.json",
+			"NumPersists":      1,
+			"ForcePersists":	true,
+            "Radius" : 5,
 			"TerminateOnZeroPersists": true,
 			"CollisionType": "Once",
 			
 			"Movement":
 			{
 				"Type": "Forward",
-				"Speed": 185.0,
-				"CutOffDistance": 25,
-                "TerminateOnCutOffEnd" : false
+				"Speed": 480.0,
+				"CutOffDistance": 500
 			},
 			
-            "TasksToProcessOnCollision" : [ 0, 1 ],
-            "TasksToProcessOnTerminate" : [ 1 ],
-
 			"Tasks" :
 			[ 
-				{ "Type": "Damage", "DamageType": "Plasma", "Amount": 1 },
-                { "Type": "Effect", "UseDirection": true, "SpriteFile": "apprentice_dragon_breath.json", "DrawLayer" : "UnderTowers" }
+				{
+					"Type": "AreaOfEffect",
+					"Range": 85,
+					"MaxTargets": 40,
+					"Tasks" :
+					[
+						{ 
+							"Type": "Damage",
+							"DamageType": "Plasma",
+							"Amount": 5
+						},
+						{
+							"Type": "StatusEffect",
+							"Status": "Ice",
+							"Duration": 3.0
+						}
+					]
+				},
+				{
+					"Type": "MultiFire",
+					"InitialOffset": -10.0,
+					"AngleIncrement": -100.0,
+					"FireCount": 20,
+					"AimAtTarget": false,
+					"MarkIDForProjectiles": true,
+					
+					"Tasks":
+					[
+						{
+							"Type": "Projectile",
+							"SpriteFile": "evil_temple_projectile.json",
+							"NumPersists": 0,
+							"TerminateOnZeroPersists": false,
+							"CollisionType": "None",
+							
+							"Movement":
+							{
+								"Type": "Forward",
+								"Speed": 500,
+								"CutOffDistance": 100
+							},
+							
+							"Tasks":
+							[
+								{
+									"Type": "AreaOfEffect",
+									"Range": 60,
+									"MaxTargets": 40,
+									"Tasks" :
+									[
+										{ 
+											"Type": "Damage",
+											"DamageType": "Plasma",
+											"Amount": 3										},
+										{
+											"Type": "StatusEffect",
+											"Status": "ice",
+											"Duration": 0.5
+										}
+									]
+								},
+								{
+									"Type": "Effect",
+									"SpriteFile": "GroundZeroAbility.json",
+									"Audio": "EXPLOSION",
+									"Scale": 0.300								}
+							]
+						}
+					]
+				},				
+				{
+					"Type": "Effect",
+					"SpriteFile": "GroundZeroAbility.json",
+					"Audio": "EXPLOSION",
+					"Scale": 0.300				}
+
 			]
 		}
 	]

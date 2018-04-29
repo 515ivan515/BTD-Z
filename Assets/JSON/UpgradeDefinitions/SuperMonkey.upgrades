@@ -102,7 +102,7 @@
             "Name" : "Plasma Blasts",
             "WeaponUpgrade" :
             {
-                "SlotIndices" : [ 0, 2, 3, 4, 5 ],
+                "SlotIndices" : [ 0, 2, 3 ],
                 "Adjust" :
                 {
                     "CooldownTime" : -0.028571428
@@ -221,7 +221,16 @@
                 "Replace" :
                 {
                     "PlacementFiringSequence" : [ 9 ],
-                    "CanTargetCamo" : true
+                    "CanTargetCamo" : true,
+					"Movement":
+                        {
+                            "Type": "Target",
+                            "Speed": 630.0,
+                            "TurnSpeed": 1440,
+                            "TargetRange": 180,
+                            "SeekAngle": 144,
+                            "CutOffDistance": 500
+                        }
                 }
             }
         },
@@ -239,15 +248,6 @@
                     {
                         "Operation" : "SelectByType",
                         "Type" :    "Projectile"
-                    },
-                    
-                    {
-                        "Operation" : "Adjust",
-						"Movement":
-						{
-							"Type": "Forward",
-	                        "CutOffDistance" : 40
-						}
                     }
                 ]
             }
@@ -267,15 +267,6 @@
                     {
                         "Operation" : "SelectByType",
                         "Type" :    "Projectile"
-                    },
-                    
-                    {
-                        "Operation" : "Adjust",
-						"Movement":
-						{
-							"Type": "Forward",
-                        	"CutOffDistance" : 30
-						}
                     }
                 ]
             }
@@ -316,21 +307,6 @@
                     "5": "TechTerrorRight.weapon",
                     "6": "BloonAnnihilation.weapon"
                 }
-            },
-            "WeaponUpgrade":
-            {
-               "SlotIndices" : [ 4, 5 ],
-                "TaskUpgrade" :
-                [
-                    {
-                        "Operation" : "SelectByType",
-                        "Type" :    "Projectile"
-                    },
-                    {
-                        "Operation" : "Replace",
-                        "GraphicName" : "supermonkey_tech_terror_projectile"
-                    }
-                ] 
             }
         }
     ]

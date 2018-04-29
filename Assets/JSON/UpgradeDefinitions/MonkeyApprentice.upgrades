@@ -24,7 +24,7 @@
             }
         },
         {
-            "Name" : "Lightning Bolt",
+            "Name" : "We Have Technology",
             
             "TowerUpgrade" :
             {
@@ -46,7 +46,7 @@
             }
         },
         {
-            "Name" : "Tempest Tornado",
+            "Name" : "STOP",
             "WeaponUpgrade" :
             {
                 "SlotIndex" : 2,
@@ -72,7 +72,7 @@
                     },
                     {
                         "Operation" : "SelectByType",
-                        "Type" :    "Damage"
+                         "Type" :    "Damage"
                     },
                     {
                         "Operation" : "Adjust",
@@ -82,7 +82,7 @@
             }
         },
         {
-            "Name" : "Fireball",
+            "Name" : "Seeking Pineapple",
             
             "TowerUpgrade" :
             {
@@ -103,7 +103,7 @@
             }
         },
         {
-            "Name" : "Dragon's Breath",
+            "Name" : "Nuclear bomb",
             
             "TowerUpgrade" :
             {
@@ -114,7 +114,7 @@
             }
         },
         {
-            "Name" : "Summon Phoenix",
+            "Name" : "Alien obliteration",
             "TowerUpgrade" :
             {
                 "Weapons" :

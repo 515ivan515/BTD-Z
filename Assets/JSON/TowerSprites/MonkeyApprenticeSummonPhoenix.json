@@ -269,7 +269,7 @@
          "Position" : [ 7.0, -14.0 ],
          "Scale" : [ 1.0, 1.0 ],
          "Shown" : true,
-         "sprite" : "monkey_apprentice_summon_phoenix_staff",
+         "sprite" : "turret2_04",
          "type" : 1,
          "uid" : 12
       },
@@ -311,6 +311,19 @@
          "sprite" : "monkey_apprentice_summon_phoenix",
          "type" : 1,
          "uid" : 13
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 0.0, 4.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "ninja_demon_mask",
+         "type" : 1,
+         "uid" : 13
       }
    ],
     "customvariables" : [
@@ -333,7 +346,7 @@
             "Texture" : "InGame"
          },
          {
-            "SpriteInfo" : "monkey_apprentice_summon_phoenix_staff",
+            "SpriteInfo" : "turret2_04",
             "Texture" : "InGame"
          },
          {
@@ -342,6 +355,10 @@
          },
          {
             "SpriteInfo" : "monkey_apprentice_summon_phoenix",
+            "Texture" : "InGame"
+         },
+         {
+            "SpriteInfo" : "ninja_demon_mask",
             "Texture" : "InGame"
          }
       ],

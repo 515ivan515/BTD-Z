@@ -1,15 +1,15 @@
 {	
     "Type":             "TripleDarts",    
-    "TargetRange":      100.0,
+    "TargetRange":      175.0,
 	"CooldownTime":     0.75,
-    "FireDelayTime":    0.2,
+    "FireDelayTime":    0.0,
         
     "Tasks"	:
     [
 		{
 			"Type":             "Projectile",
-			"GraphicName":      "dart_monkey_dart",
-			"NumPersists":      1,
+			"GraphicName":      "carrot",
+			"NumPersists":      4,
 			"TerminateOnZeroPersists": true,
 			
 			"CollisionType": "Once",
@@ -18,32 +18,32 @@
 			{
 				"Type": "Forward",
 				"Speed": 805.0,
-				"CutOffDistance": 161
+				"CutOffDistance": 300
 			},
 			
-            "DisabledTasks" : [ 1, 2 ],
+            "DisabledTasks" : [ ],
 			
-			"TasksToProcessOnCollision" : [ 0 ],
-			"TasksToProcessOnTerminate" : [ 1, 2 ],
+			"TasksToProcessOnCollision" : [ ],
+			"TasksToProcessOnTerminate" : [ ],
             
 			"Tasks" :
 			[
 				{ 
 					"Type": "Damage",
-					"DamageType": "Piercing",
+					"DamageType": "Plasma",
 					"Amount": 1 
 				},
                 
                 {
 					"Type": "AreaOfEffect",
 					"Range": 36,
-					"MaxTargets": 2,
+					"MaxTargets": -1,
 					"Tasks" :
 					[
 						{
 							"Type": "Damage",
 							"DamageType": "Explosive",
-							"Amount": 1
+							"Amount": 10
 						}
 					]
                 },
@@ -65,8 +65,8 @@
     		[
 				{
 					"Type": "Projectile",
-					"GraphicName": "dart_monkey_dart",
-					"NumPersists":      1,
+					"GraphicName": "carrot",
+					"NumPersists":      8,
 					"TerminateOnZeroPersists": true,
 					
 					"CollisionType": "Once",
@@ -75,14 +75,14 @@
 					{
 						"Type": "Forward",
 						"Speed": 805.0,
-						"CutOffDistance": 161
+						"CutOffDistance": 300
 					},
 					
 					"Tasks":
 					[
 						{
 							"Type": "Damage",
-							"DamageType": "Piercing",
+							"DamageType": "Plasma",
 							"Amount": 1
 						}
 					]

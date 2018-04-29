@@ -7,7 +7,7 @@
     "UI": {
       "CardTextInfo": [
         {
-          "Text": "In a hurry?|CENTER_X"
+          "Text": "Get ready for a nightmare|CENTER_X"
         },
         {
           "Icon": "rulesIcon_SpeedBattle_large",
@@ -15,21 +15,21 @@
           "offsetX": 60
         },
         {
-          "Text": "All Bloons can be sent 2 rounds earlier!",
+          "Text": "Towers price rises Fast",
           "Icon": "bullet_point_glow",
           "offsetY": 25
         },
         {
-          "Text": "All Bloons are faster",
+          "Text": "Good Luck.",
           "Icon": "bullet_point_glow"
         },
         {
-          "Text": "Income generates quicker!",
+          "Text": "Watch out",
           "Icon": "bullet_point_glow"
         }
       ],
-      "DisplayName": "SPEED BATTLE",
-      "DisplayInfo": "GO FASTER!",
+      "DisplayName": "Nightmare Mode",
+      "DisplayInfo": "GG",
       "DisplayIcon": "rulesIcon_SpeedBattle"
     },
     "version": "1.0"

@@ -1,40 +1,18 @@
 {
     "name": "R3_Speed",
     "rules": [
-        "FreePowerups",
-        "RandomTrio",
-        "Speed"
+      "FreePowerups",
+      "RoundPriceIncrease"
     ],
     "UI": {
-        "CardTextInfo": [
-            {
-                "Icon": "rulesIcon_RandomTrio|CENTER_X",
-                "offsetX": 0,
-                "offsetY": 12
-            },
-            {
-                "Text": "x3 Random Towers",
-                "Icon": "bullet_point_glow",
-                "offsetY": 15
-            },
-            {
-                "Icon": "rulesIcon_SpeedBattle|CENTER_X",
-                "offsetY": 14,
-                "offsetX": 0
-            },
-            {
-                "Text": "Send faster bloons 2 rounds earlier",
-                "Icon": "bullet_point_glow",
-                "offsetY": 15
-            },
-            {
-                "Text": "Faster income generation",
-                "Icon": "bullet_point_glow"
-            }
-        ],
-        "DisplayName": "R3 SPEED",
-        "DisplayInfo": "",
-        "DisplayIcon": "combo_r3_speed_small"
+      "CardTextInfo": [
+        {
+          "Text": "Towers cost 10% more each round"
+        }
+      ],
+      "DisplayName": "Round Price Increase",
+      "DisplayInfo": "Prepare to have a bad time...",
+      "DisplayIcon": "combo_speed_bananza"
     },
     "version": "1.0"
-}
+  }

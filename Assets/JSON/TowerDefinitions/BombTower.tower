@@ -26,7 +26,7 @@
     "Upgrades" :
     [
     	[ "Extra Range", "Frag Bombs", "Cluster Bombs", "Bloon Impact" ],
-    	[ "Bigger Bombs", "Missile Launcher", "MOAB Mauler", "MOAB Assassin" ]
+    	[ "Bigger Bombs", "Missile Launcher", "Pyro Temple", "Ultimate Distruction" ]
     ],
 	"ShortUpgradeDescriptions" :
 	[
@@ -47,21 +47,21 @@
 	[
 		[
 			"Gives tower longer attack range.",
-			"Each explosion throws out 8 sharp fragments for more popping.",
-			"Throws out secondary bombs instead of frags.",
+			"Each explosion throws out 8 sharp fragments for more popping. (for the temple this upgrade adds more lasers)",
+			"Don't buy this way yet....",
 			"Bloons become stunned for a short time when they are hit."
 		],
 		[
 			"Larger blast area and more popping power.",
 			"More velocity and range, more damage, and faster firing.",
-			"Inflicts x10 damage on MOAB class bloons.",
-			"Ability: deadly missile seeks the nearest MOAB and destroys it."
+			"A temple that Shoots lasers and stuff",
+			"Buffs up the temple..."
 		]
 	],
     "UpgradePrices" : 
     [
         [ 200, 300, 700, 3600 ],
-        [ 400, 400, 900, 3200 ]
+        [ 400, 400, 90000, 320000 ]
     ],
 	"UpgradeGateway" :
 	[
@@ -79,8 +79,8 @@
     	[ 
             "bomb_avatar_bigger_bombs_small", 
             "bomb_avatar_missile_launcher_small", 
-            "bomb_avatar_moab_mauler_small", 
-            "bomb_avatar_moab_assassin_small"
+            "supermonkey_avatar_sun_god_small", 
+            "supermonkey_avatar_tech_terror_small"
         ]
     ],
 
@@ -95,8 +95,8 @@
     	[ 
             "bomb_bigger_icon", 
             "bomb_missile_icon", 
-            "bomb_mauler_icon", 
-            "bomb_assassin_icon"
+            "supermonkey_temple_icon", 
+            "supermonkey_temple_icon"
         ]
     ],
             
@@ -110,7 +110,7 @@
     "CanBePlacedOnPath"		: false,
     
     "UseRadiusPlacement"	: true,
-    "PlacementRadius"		: 10.0,
+    "PlacementRadius"		: 20.0,
     "PlacementW"			: 20.0,
     "PlacementH"			: 20.0,
     "SpriteUpgradeDefinition" : "BombTower.json",

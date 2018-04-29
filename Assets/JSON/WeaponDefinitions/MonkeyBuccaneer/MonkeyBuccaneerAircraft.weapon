@@ -8,7 +8,7 @@
     [
 		{
 			"Type": "LaunchAircraft",
-			"Aircraft": "AircraftCarrier.tower",
+			"Aircraft": "AircraftCarrier2.tower",
             "MaxAircraft" : 3,
             "UseTargetPath" : true      
 		}

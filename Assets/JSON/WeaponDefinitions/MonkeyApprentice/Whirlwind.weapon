@@ -1,8 +1,8 @@
 {	
     "Type":             "Whirlwind",    
-    "TargetRange":      120.0,
-	"CooldownTime":     2.3,
-    "FireDelayTime":    0.2,
+    "TargetRange":      300.0,
+	"CooldownTime":     1.0,
+    "FireDelayTime":    0.0,
     
     "Tasks" :
     [
@@ -23,17 +23,17 @@
 				"CutOffDistance": 240
 			},
 			
-            "TasksToProcessOnCollision" : [ 0, 1 ],
+            "TasksToProcessOnCollision" : [ 0, 1, 2 ],
             "TasksToProcessOnTerminate" : [ 2 ],
             
-            "DisabledTasks" : [ 2 ],
+            "DisabledTasks" : [  ],
             
 			"Tasks" :
 			[ 
 				{
 					"Type": "Damage",
 					"DamageType": "Piercing",
-					"Amount": 0
+					"Amount": 50
 				},
 				{
 					"Type": "StatusEffect",
@@ -42,13 +42,13 @@
                 {
                     "Type": "MultiFire",
                     "InitialOffset": 0,
-                    "AngleIncrement": 120,
-                    "FireCount": 3,
+                    "AngleIncrement": 50,
+                    "FireCount": 10,
                     "AimAtTarget": false,
                     "Tasks":
                     [{                
                         "Type":             "Projectile",
-                        "SpriteFile":       "WhirlwindProjectile.json",
+                        "SpriteFile":       "TempestTornadoProjectile.json",
                         "NumPersists":      10,
 
                         "TerminateOnZeroPersists": true,

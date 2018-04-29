@@ -2,11 +2,71 @@
 	"Type" : "Pink",
 	"InitialHealth" : 1,
 	"SpriteFile" : "pink_bloon",
-	"BaseSpeed" : 70,
-	"SpeedMultiplier" : 3.5,
-    "Radius" : 13,
-	"RBE" : 5,
+	"BaseSpeed" : 100,
+	"SpeedMultiplier" : 1,
+	"RBE" : 2,
     "ChildBloons" : [ "Yellow.bloon" ],
     "StatusImmunity" : ["CrippleMOAB"],
-    "DamageImmunity" : ["Juggernaut", "MOABMauler", "Foam"]
+    "DamageImmunity" : ["Juggernaut", "MOABMauler", "Foam"],
+	"Scale" : 0.8,
+    "Radius" : 10.4
+}, {	
+    "Type":             "PinkBloon",    
+    "TargetRange":      120,
+	"CooldownTime":     1.0,
+    "FireDelayTime":    0.0,
+   	"RequiresTargetToFire"	: false,
+	"AllowFiringOnlyOnRoundStart": true,
+	"MaxShots": 2,
+
+    "Tasks" :
+    [
+		{
+			"Type": "RandomFire",
+			"Range": 120,
+			"OnlyTargetPathLocations": false,
+			"FireFullRange": true,
+			"TerminateOnZeroPersists": true,
+			"FollowTarget": false,
+            "WaitTimeRange": [ 0.0, 2.0 ],
+			
+			"Tasks":
+			[
+				{
+					"Type":             "Collectable",
+					"GraphicName":      "bananas",
+					"Duration":	15,
+					"MoneyRange": [ 60, 60 ],
+					"MoneyMultiplier": 1.0,
+					"CollectionRadius": 50,
+					
+					"Movement":
+					{
+						"Type": "Forward",
+						"Speed": 250,
+						"KeepOnScreen": true,
+						"SpeedDecay": 0.95
+					},
+					
+					"Tasks":
+					[
+						{
+							"Type": "TextEffect",
+							"Text": "",
+							"Font": "oetztype_24_black_stroke",
+							"Colour": [ 1.0, 1.0, 1.0 ],
+							
+							"Movement":
+							{
+								"Type": "Forward",
+								"Direction": [0, -1],
+								"Speed": 20,
+								"CutOffDistance": 30
+							}
+						}
+					]
+				}
+			]
+		}
+	]
 }

@@ -1,26 +1,41 @@
 {	
     "Type":             	"SupplyDrop",    
     "TargetRange":      	1000,
-	"CooldownTime":     	60,
+	"CooldownTime":     	1.1,
     "FireDelayTime":    	0.0,
-	"ManuallyFired": 		true,
-	"RequiresTargetToFire":	false,
+	"ManuallyFired": 		false,
+	"RequiresTargetToFire":	true,
 	
     "Tasks" :
     [
 		{
-			"Type": "LaunchAircraft",
-			"Aircraft": "SupplyDropPlane.tower",
-			"Path":
-			[
-				[ [ -0.1, -0.1 ], [ 0, 1 ] ],
-				[ [ 1.1, 1.1 ], [ 0, 1 ] ]
+			"Type": "RandomFire",
+			"Range": 100,
+			"FireFullRange": false,
+			"OnlyTargetPlacementLocations": true,
+			"PlacementTowerType" : "SuperMonkey",
+			
+			"Tasks" :
+			[            
+				{
+					"Type" : "CreateTower",
+					"TowerType" : "SuperMonkey",
+					"TowerColour" : [ 35, 65, 65, 235 ],
+					"TowerLifetime" : 10,
+					
+					"Tasks" :
+					[{
+						"Type" : "Effect",
+						"SpriteFile": "black_smoke.json",
+						"Scale": 0.635,
+						"DrawLayer" : "UnderTowers",
+						"LoopForever" : true,
+						"Duration" : 3            
+					}]
+				}
 			]
-		},
-		{
-			"Type": "Effect",
-			"SpriteFile": "SupplyDropAbility.json",
-			"DrawLayer": "FullScreen"
 		}
 	]
+}
+    ]
 }

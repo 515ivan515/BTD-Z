@@ -14,17 +14,30 @@
          "uid" : 24
       },
       {
-         "Alignment" : [ 2, 0 ],
+         "Alignment" : [ 0, 0 ],
          "Alpha" : 1.0,
          "Angle" : 0.0,
          "Colour" : 4294967295,
          "Flip" : 0,
-         "Position" : [ 0.0, 8.0 ],
+         "Position" : [ -1.0, 2.0 ],
          "Scale" : [ 1.0, 1.0 ],
          "Shown" : true,
-         "sprite" : "boomerang_glaive_lord_cape",
+         "sprite" : "monkey_apprentice_hooded_wizard",
          "type" : 1,
-         "uid" : 18
+         "uid" : 15
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 1,
+         "Position" : [ -1.0, 2.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "monkey_apprentice_hooded_wizard",
+         "type" : 1,
+         "uid" : 15
       },
       {
          "Alignment" : [ 2, 0 ],
@@ -34,7 +47,7 @@
          "Flip" : 0,
          "Position" : [ 0.0, 1.0 ],
          "Scale" : [ 1.0, 1.0 ],
-         "Shown" : true,
+         "Shown" : false,
          "sprite" : "boomerang_glaive_lord_head",
          "type" : 1,
          "uid" : 17
@@ -79,17 +92,17 @@
          "uid" : 23
       },
       {
-         "Alignment" : [ 2, 0 ],
+         "Alignment" : [ 0, 0 ],
          "Alpha" : 1.0,
          "Angle" : 0.0,
          "Colour" : 4294967295,
-         "Flip" : 1,
-         "Position" : [ 0.0, 8.0 ],
+         "Flip" : 0,
+         "Position" : [ -1.0, 2.0 ],
          "Scale" : [ 1.0, 1.0 ],
          "Shown" : true,
-         "sprite" : "boomerang_glaive_lord_cape",
+         "sprite" : "monkey_apprentice_hooded_wizard",
          "type" : 1,
-         "uid" : 19
+         "uid" : 15
       },
       {
          "Alignment" : [ 2, 0 ],
@@ -99,7 +112,7 @@
          "Flip" : 1,
          "Position" : [ 0.0, 1.0 ],
          "Scale" : [ 1.0, 1.0 ],
-         "Shown" : true,
+         "Shown" : false,
          "sprite" : "boomerang_glaive_lord_head",
          "type" : 1,
          "uid" : 20
@@ -121,7 +134,7 @@
             "Texture" : "InGame"
          },
          {
-            "SpriteInfo" : "boomerang_glaive_lord_cape",
+            "SpriteInfo" : "monkey_apprentice_hooded_wizard",
             "Texture" : "InGame"
          },
          {

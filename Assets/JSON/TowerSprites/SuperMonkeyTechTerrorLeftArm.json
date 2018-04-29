@@ -2,6 +2,19 @@
    "Alignment" : null,
    "Point" : null,
    "actors" : [
+    {
+        "Alignment" : [ 0, 0 ],
+        "Alpha" : 1.0,
+        "Angle" : 0.0,
+        "Colour" : 4294967295,
+        "Flip" : 0,
+        "Position" : [ -17.7, -8.0 ],
+        "Scale" : [ 1.0, 1.0 ],
+        "Shown" : true,
+        "sprite" : "RayDoom.json",
+        "type" : 2,
+        "uid" : 99
+     },
       {
          "Alignment" : [ 0, 0 ],
          "Alpha" : 1.0,
@@ -40,6 +53,10 @@
    "labels" : null,
    "stageOptions" : {
       "SpriteInfo" : [
+        {
+            "SpriteInfo" : "RayDoom.json",
+            "Texture" : "InGame"
+         },
          {
             "SpriteInfo" : "supermonkey_tech_terror_arm_02",
             "Texture" : "InGame"
@@ -53,6 +70,10 @@
       "Version" : 1
    },
    "timelines" : [
+    {
+        "spriteuid" : 99,
+        "stage" : null
+      },
       {
          "spriteuid" : 2,
          "stage" : [

@@ -1,48 +1,36 @@
 {	
-    "Type":             "Fireball",
+    "Type":             "Fireball",    
     "TargetRange":      120.0,
-	"CooldownTime":     2.1,
+    "CooldownTime":     2.8,
     "FireDelayTime":    0.2,
     
     "Tasks" :
-    [
-		{
-			"Type":            "Projectile",
-			"SpriteFile":      "MonkeyApprenticeFireballProjectile.json",
-			"NumPersists":      1,
-			"TerminateOnZeroPersists": true,
+    [{
+        "Type":             "Projectile",
+        "GraphicName":      "pineapple",        "NumPersists":      7,
+		"Radius" : 10,
 
-			"CollisionType": "Once",
-			
-			"Movement":
+        "TerminateOnZeroPersists": true,
+        
+        "CollisionType": "Once",
+        
+		"Movement":
+		{
+			"Type": "Target",
+			"Speed": 460,
+			"TurnSpeed": 960,
+			"TargetRange": 180,
+			"SeekAngle": 97,
+			"CutOffDistance": 900
+,               "KeepOnScreen": true		},
+
+        "Tasks" : 
+		[
 			{
-				"Type": "Forward",
-				"Speed": 460.0,
-				"CutOffDistance": 240
-			},
-			
-			"Tasks" :
-			[ 
-				{
-					"Type": "AreaOfEffect",
-					"Range": 72,
-					"MaxTargets": 30,
-					"Tasks" :
-					[
-						{ 
-							"Type": "Damage",
-							"DamageType": "Explosive",
-							"Amount": 1
-						}
-					]
-				},
-				{
-					"Type": "Effect",
-					"SpriteFile": "Explosion.json",
-					"Audio": "EXPLOSION",
-					"Scale": 0.833
-				}
-			]
-		}
-	]
+				"Type": "Damage",
+				"DamageType": "Plasma", 
+				"Amount": 1 
+			}
+		]
+    }]
 }

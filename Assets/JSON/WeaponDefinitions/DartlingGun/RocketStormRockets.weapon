@@ -1,64 +1,52 @@
-{	
-    "Type":             	"RocketStormRockets",    
-    "TargetRange":      	100000.0,
-	"CooldownTime":     	2.0,
-    "FireDelayTime":    	0.0,
-	"ManuallyFired": 		false,
-	"RequiresTargetToFire":	true,
-    "TotalAmmo":            5,
-    "RemainingAmmo":        5,
-    "DisableSlotWhenOutOfAmmo" : true,
+{
+    "Type": "RocketStormRockets",
+    "TargetsIndependently": true,
+    "SelfTargetMode": "Strong",
+    "FireDelayTime": 0,
+    "CooldownTime": 0,
+    "ManuallyFired": false,
+    "TargetRange": 1000,
+    "CanSelfTargetCamo": true,
+    "ShowRange": false,
 
-    "Tasks" :
-    [
+    "Tasks": [
         {
-            "Type": "MultiFire",
-            "AcquireTarget": true,
-            "InitialOffset": -0,
-            "AngleIncrement": 0,
-            "FireCount": 100,
-
-            "Tasks":
-            [
+            "Type": "Projectile",
+            "ForcePersists": true,
+            "TerminateOnZeroPersists": true,
+            "CollisionType": "Once",
+            "SpriteFile": "SubmarineFirstStrikeMissile.json",
+            "NumPersists": 1,
+            "Movement": {
+                "SeekAngle": 360,
+                "TurnSpeed": 960,
+                "CutOffDistance": 1000,
+                "Type": "Target",
+                "TerminateOnNoTarget": false,
+                "TargetRange": 1000,
+                "Speed": 500,
+			 	"TargetMode": "Strong"
+            },
+            "Tasks": [
                 {
-                    "Type": "Projectile",
-                    "GraphicName": "dartling_gun_rocket",
-                    "NumPersists":      1,
-                    "TerminateOnZeroPersists": true,
-
-                    "CollisionType": "Once",
-                    
-                    "Movement":
-                    {
-                        "Type": "Forward",
-                        "Speed": 1000.0,
-                        "CutOffDistance": 1000
-                    },
-                    
-                    "Tasks" :
-                    [ 
-                        {
-                            "Type": "AreaOfEffect",
-                            "Range": 50,
-                            "MaxTargets": 23,
-                            "Tasks" :
-                            [
-                                { 
-                                    "Type": "Damage",
-                                    "DamageType": "Plasma",
-                                    "Amount": 1
-                                }
-                            ]
-                        },
-                        {
-                            "Type": "Effect",
-                            "SpriteFile": "Explosion.json",
-							"Audio": "EXPLOSION",
-                            "Scale": 0.66
-                        }
-                    ]
+                    "Type": "DamageSpread",
+                    "DamageType": "Plasma",
+                    "Range": 150,
+                    "Amount": 6000,
+                    "MaxTargets": -1
+                },
+                {
+                    "Type": "Effect",
+                    "Scale": 1.555,
+					"Audio": "EXPLOSION",
+                    "SpriteFile": "Explosion.json"
                 }
             ]
+        },
+        {
+            "Type": "Effect",
+            "DrawLayer": "FullScreen",
+            "SpriteFile": "GeneralShockwave.json"
         }
-	]
+    ]
 }

@@ -53,17 +53,30 @@
          "uid" : 8
       },
       {
-         "Alignment" : [ 0, 0 ],
+         "Alignment" : [ 2, 0 ],
          "Alpha" : 1.0,
          "Angle" : 0.0,
          "Colour" : 4294967295,
          "Flip" : 0,
-         "Position" : [ 0.0, -2.0 ],
+         "Position" : [ 0.0, 3.0 ],
          "Scale" : [ 1.0, 1.0 ],
          "Shown" : true,
-         "sprite" : "blue_bandana",
+         "sprite" : "monkey_farmer_hat",
          "type" : 1,
-         "uid" : 11
+         "uid" : 2
+      },
+      {
+         "Alignment" : [ 2, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 1,
+         "Position" : [ 0.0, 3.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "monkey_farmer_hat",
+         "type" : 1,
+         "uid" : 4
       }
    ],
     "customvariables" : [
@@ -94,7 +107,7 @@
             "Texture" : "InGame"
          },
          {
-            "SpriteInfo" : "blue_bandana",
+            "SpriteInfo" : "monkey_farmer_hat",
             "Texture" : "InGame"
          }
       ],

@@ -21,7 +21,7 @@
          "Flip" : 0,
          "Position" : [ 0.0, -1.0 ],
          "Scale" : [ 1.0, 1.0 ],
-         "Shown" : false,
+         "Shown" : true,
          "sprite" : "camo_overlay",
          "type" : 1,
          "uid" : 8
@@ -47,7 +47,7 @@
          "Flip" : 0,
          "Position" : [ 0.0, 0.0 ],
          "Scale" : [ 1.0, 1.0 ],
-         "Shown" : false,
+         "Shown" : true,
          "sprite" : "stock_regen_bloon",
          "type" : 1,
          "uid" : 10
@@ -60,7 +60,7 @@
          "Flip" : 0,
          "Position" : [ 0.0, -1.0 ],
          "Scale" : [ 1.0, 1.0 ],
-         "Shown" : false,
+         "Shown" : true,
          "sprite" : "camo_regen_overlay",
          "type" : 1,
          "uid" : 11
@@ -73,7 +73,7 @@
          "Flip" : 0,
          "Position" : [ 2.0, -7.0 ],
          "Scale" : [ 1.0, 1.0 ],
-         "Shown" : false,
+         "Shown" : true,
          "sprite" : "stock_regen_bloon_highlight",
          "type" : 1,
          "uid" : 9
@@ -146,7 +146,7 @@
                "Flip" : 0,
                "Position" : [ 0.0, 0.0 ],
                "Scale" : [ 1.0, 1.0 ],
-               "Shown" : false,
+               "Shown" : true,
                "Time" : 0.1000000014901161
             }
          ]
@@ -162,7 +162,7 @@
                "Flip" : 0,
                "Position" : [ 0.0, -1.0 ],
                "Scale" : [ 1.0, 1.0 ],
-               "Shown" : false,
+               "Shown" : true,
                "Time" : 0.0
             },
             {
@@ -173,7 +173,7 @@
                "Flip" : 0,
                "Position" : [ 0.0, -1.0 ],
                "Scale" : [ 1.0, 1.0 ],
-               "Shown" : false,
+               "Shown" : true,
                "Time" : 0.0
             },
             {
@@ -195,7 +195,7 @@
                "Flip" : 0,
                "Position" : [ 0.0, -1.0 ],
                "Scale" : [ 1.0, 1.0 ],
-               "Shown" : false,
+               "Shown" : true,
                "Time" : 0.1000000014901161
             }
          ]
@@ -233,7 +233,7 @@
                "Flip" : 0,
                "Position" : [ 4.0, -4.0 ],
                "Scale" : [ 1.0, 1.0 ],
-               "Shown" : false,
+               "Shown" : true,
                "Time" : 0.1000000014901161
             }
          ]
@@ -249,7 +249,7 @@
                "Flip" : 0,
                "Position" : [ 0.0, 0.0 ],
                "Scale" : [ 1.0, 1.0 ],
-               "Shown" : false,
+               "Shown" : true,
                "Time" : 0.0
             },
             {
@@ -260,7 +260,7 @@
                "Flip" : 0,
                "Position" : [ 0.0, 0.0 ],
                "Scale" : [ 1.0, 1.0 ],
-               "Shown" : false,
+               "Shown" : true,
                "Time" : 0.0
             },
             {
@@ -287,7 +287,7 @@
                "Flip" : 0,
                "Position" : [ 0.0, -1.0 ],
                "Scale" : [ 1.0, 1.0 ],
-               "Shown" : false,
+               "Shown" : true,
                "Time" : 0.0
             },
             {
@@ -298,7 +298,7 @@
                "Flip" : 0,
                "Position" : [ 0.0, -1.0 ],
                "Scale" : [ 1.0, 1.0 ],
-               "Shown" : false,
+               "Shown" : true,
                "Time" : 0.0
             },
             {
@@ -325,7 +325,7 @@
                "Flip" : 0,
                "Position" : [ 2.0, -7.0 ],
                "Scale" : [ 1.0, 1.0 ],
-               "Shown" : false,
+               "Shown" : true,
                "Time" : 0.0
             },
             {
@@ -336,7 +336,7 @@
                "Flip" : 0,
                "Position" : [ 2.0, -7.0 ],
                "Scale" : [ 1.0, 1.0 ],
-               "Shown" : false,
+               "Shown" : true,
                "Time" : 0.0
             },
             {

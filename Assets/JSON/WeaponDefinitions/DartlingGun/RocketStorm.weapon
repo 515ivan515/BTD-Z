@@ -10,12 +10,11 @@
     [
         {
             "Type" : "EnableWeaponSlot",
-            "SlotIndex" : 3
+            "SlotIndex" : 10
         },
         {
             "Type" : "RestoreAmmo",
-            "SlotIndex" : 3,
-            "Amount" : 5
-        }
+            "SlotIndex" : 10,
+            "Amount" : 10        }
     ]
 }

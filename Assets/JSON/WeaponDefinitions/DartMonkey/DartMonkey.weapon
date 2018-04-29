@@ -8,7 +8,7 @@
     [
 		{
 			"Type":             "Projectile",
-			"GraphicName":      "dart_monkey_dart",
+			"GraphicName":      "carrot",
 			"NumPersists":      1,
 			"TerminateOnZeroPersists": true,
 			

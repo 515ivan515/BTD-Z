@@ -12,8 +12,8 @@
 
     "Upgrades" :
     [
-    	[ "Focused Firing", "Faster Barrel Spin", "Laser Cannon", "Ray Of Doom" ],
-    	[ "Powerful Darts", "Depleted Bloontonium", "Hydra Rocket Pods", "Bloon Area Denial System" ]
+    	[ "Focused Firing", "Faster Barrel Spin", "Ray Of Doom", "Hot Laser" ],
+    	[ "Powerful Darts", "Auto Aim", "Hydra Rocket Pods", "Bloon Area Denial System" ]
     ],
 	"ShortUpgradeDescriptions" :
 	[
@@ -35,12 +35,12 @@
 		[
 			"Greatly reduces the spread of the gun.",
 			"Makes gun fire much faster.",
-			"Rapid fire plasma can pop 13 bloons each and also pops frozen bloons.",
-			"The Ray of Doom is a persistent solid beam of bloon destruction."
+			"The Ray of Doom is a persistent solid beam of bloon destruction.",
+			"The laser gets much hotter and radiates heat off the laser."
 		],
 		[
 			"Darts move faster and can pop 3 bloons each.",
-			"Shots can now hurt any bloon type.",
+			"The Dartling Gun now aims at bloons for you.",
 			"Shoots vicious little missiles instead of darts. ",
 			"Ability: shoots missiles toward the nearest 100 bloons on screen."
 		]

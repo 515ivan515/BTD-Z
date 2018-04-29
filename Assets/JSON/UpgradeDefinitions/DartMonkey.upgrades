@@ -103,7 +103,7 @@
                     
                     {
                         "Operation" : "Adjust",
-                        "NumPersists" : 1
+                        "NumPersists" : 4
                     }
                 ]
             }
@@ -111,21 +111,12 @@
         
         {
             "Name" : "Razor Sharp Shots",
-            "WeaponUpgrade" :
+            "TowerUpgrade" :
             {
-                "SlotIndices" : [ 0, 1 ],
-                "TaskUpgrade" :
-                [
-                    {
-                        "Operation" : "SelectByType",
-                        "Type" :    "Projectile"
-                    },
-                    
-                    {
-                        "Operation" : "Adjust",
-                        "NumPersists" : 2
-                    }
-                ]
+                "Weapons" :
+                {
+                    "0" : "FanClubDart.weapon"
+                }
             }
         },
     

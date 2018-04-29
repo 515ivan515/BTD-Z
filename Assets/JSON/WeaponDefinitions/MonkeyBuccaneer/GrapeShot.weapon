@@ -9,14 +9,14 @@
     	{
     		"Type": "MultiFire",
     		"InitialOffset": -45.0,
-    		"AngleIncrement": 22.5,
-    		"FireCount": 2,
+    		"AngleIncrement": 15,
+    		"FireCount": 3,
     		"Tasks":
     		[
 				{
 					"Type": "Projectile",
 					"GraphicName": "grape",
-					"NumPersists":      2,
+					"NumPersists":      1,
 					"TerminateOnZeroPersists": true,
 					
 					"CollisionType": "Once",
@@ -34,6 +34,78 @@
 							"Type": "Damage",
 							"DamageType": "Piercing",
 							"Amount": 1
+						},
+						{
+							"Type": "MultiFire",
+							"InitialOffset": 0,
+							"AngleIncrement": 51.42,
+							"ShotDelay": 0.15,
+							"FireCount": 7,
+							"AimAtTarget" : false,
+							
+							"Tasks" :
+							[
+								{
+									"Type": "Projectile",
+									"GraphicName": "grape",
+									"NumPersists": 3,
+									"TerminateOnZeroPersists": true,
+									
+									"CollisionType": "Once",
+									
+									"Movement": 
+									{
+										"Type": "Forward",
+										"Speed": 280.0,
+										"CutOffDistance": 1000
+									},
+									
+									"Tasks":
+									[
+										{
+											"Type": "Damage",
+											"DamageType": "Plasma",
+											"Amount": 1
+										}
+									]
+								}
+							]
+						},
+						{
+							"Type": "MultiFire",
+							"InitialOffset": 180,
+							"AngleIncrement": 51.42,
+							"ShotDelay": 0.15,
+							"FireCount": 7,
+							"AimAtTarget" : false,
+							
+							"Tasks" :
+							[
+								{
+									"Type": "Projectile",
+									"GraphicName": "grape",
+									"NumPersists": 3,
+									"TerminateOnZeroPersists": true,
+									
+									"CollisionType": "Once",
+									
+									"Movement": 
+									{
+										"Type": "Forward",
+										"Speed": 280.0,
+										"CutOffDistance": 1000
+									},
+									
+									"Tasks":
+									[
+										{
+											"Type": "Damage",
+											"DamageType": "Plasma",
+											"Amount": 1
+										}
+									]
+								}
+							]
 						}
 					]
 				}
@@ -42,14 +114,14 @@
         {
     		"Type": "MultiFire",
     		"InitialOffset":  22.5,
-    		"AngleIncrement": 22.5,
-    		"FireCount": 2,
+    		"AngleIncrement": 15,
+    		"FireCount": 3,
     		"Tasks":
     		[
 				{
 					"Type": "Projectile",
 					"GraphicName": "grape",
-					"NumPersists":      2,
+					"NumPersists":      1,
 					"TerminateOnZeroPersists": true,
 					
 					"CollisionType": "Once",
@@ -67,10 +139,82 @@
 							"Type": "Damage",
 							"DamageType": "Piercing",
 							"Amount": 1
+						},
+						{
+							"Type": "MultiFire",
+							"InitialOffset": 0,
+							"AngleIncrement": 51.42,
+							"ShotDelay": 0.15,
+							"FireCount": 7,
+							"AimAtTarget" : false,
+							
+							"Tasks" :
+							[
+								{
+									"Type": "Projectile",
+									"GraphicName": "grape",
+									"NumPersists": 3,
+									"TerminateOnZeroPersists": true,
+									
+									"CollisionType": "Once",
+									
+									"Movement": 
+									{
+										"Type": "Forward",
+										"Speed": 280.0,
+										"CutOffDistance": 1000
+									},
+									
+									"Tasks":
+									[
+										{
+											"Type": "Damage",
+											"DamageType": "Plasma",
+											"Amount": 1
+										}
+									]
+								}
+							]
+						},
+						{
+							"Type": "MultiFire",
+							"InitialOffset": 180,
+							"AngleIncrement": 51.42,
+							"ShotDelay": 0.15,
+							"FireCount": 7,
+							"AimAtTarget" : false,
+							
+							"Tasks" :
+							[
+								{
+									"Type": "Projectile",
+									"GraphicName": "grape",
+									"NumPersists": 3,
+									"TerminateOnZeroPersists": true,
+									
+									"CollisionType": "Once",
+									
+									"Movement": 
+									{
+										"Type": "Forward",
+										"Speed": 280.0,
+										"CutOffDistance": 1000
+									},
+									
+									"Tasks":
+									[
+										{
+											"Type": "Damage",
+											"DamageType": "Plasma",
+											"Amount": 1
+										}
+									]
+								}
+							]
 						}
 					]
 				}
 			]
-    	}
-    ]
+		}
+	]
 }

@@ -74,7 +74,7 @@
 			"Time" : 41.5,
 			"Data" : {
 				  "Type" : 17,
-				  "TowerID" : 2,
+				  "TowerID" : 20,
 				  "Levels[0]" : 1,
 				  "Levels[1]" : 2,
 				  "RandSeed" : 0

@@ -6,12 +6,12 @@
          "Angle" : 0.0,
          "Colour" : 4294967295,
          "Flip" : 0,
-         "Position" : [ -1.0, -10.0 ],
+         "Position" : [ -2.0, -10.0 ],
          "Scale" : [ 1.0, 1.0 ],
          "Shown" : true,
          "sprite" : "glue_gunner_brown_arm",
          "type" : 1,
-         "uid" : 1
+         "uid" : 17
       },
       {
          "Alignment" : [ 0, 0 ],
@@ -84,12 +84,12 @@
          "Angle" : 0.0,
          "Colour" : 4294967295,
          "Flip" : 0,
-         "Position" : [ 1.0, 4.0 ],
+         "Position" : [ -1.0, 15.0 ],
          "Scale" : [ 1.0, 1.0 ],
          "Shown" : true,
-         "sprite" : "dart_monkey_body",
+         "sprite" : "glue_gunner_green_tank",
          "type" : 1,
-         "uid" : 7
+         "uid" : 14
       },
       {
          "Alignment" : [ 0, 0 ],
@@ -97,12 +97,25 @@
          "Angle" : 0.0,
          "Colour" : 4294967295,
          "Flip" : 0,
-         "Position" : [ -1.0, 14.0 ],
+         "Position" : [ 10.0, -10.0 ],
          "Scale" : [ 1.0, 1.0 ],
          "Shown" : true,
-         "sprite" : "glue_gunner_grey_tank",
+         "sprite" : "glue_gunner_bloon_dissolver_gauge",
          "type" : 1,
-         "uid" : 9
+         "uid" : 15
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ -1.0, 0.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "glue_gunner_bloon_liquefier",
+         "type" : 1,
+         "uid" : 18
       }
    ],
     "customvariables" : [
@@ -141,11 +154,15 @@
             "Texture" : "InGame"
          },
          {
-            "SpriteInfo" : "dart_monkey_body",
+            "SpriteInfo" : "glue_gunner_green_tank",
             "Texture" : "InGame"
          },
          {
-            "SpriteInfo" : "glue_gunner_grey_tank",
+            "SpriteInfo" : "glue_gunner_bloon_dissolver_gauge",
+            "Texture" : "InGame"
+         },
+         {
+            "SpriteInfo" : "glue_gunner_bloon_liquefier",
             "Texture" : "InGame"
          }
       ],
@@ -153,10 +170,6 @@
       "Version" : 1
    },
    "timelines" : [
-      {
-         "spriteuid" : 1,
-         "stage" : null
-      },
       {
          "spriteuid" : 2,
          "stage" : [
@@ -326,11 +339,19 @@
          ]
       },
       {
-         "spriteuid" : 7,
+         "spriteuid" : 14,
          "stage" : null
       },
       {
-         "spriteuid" : 9,
+         "spriteuid" : 15,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 18,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 17,
          "stage" : null
       }
    ]

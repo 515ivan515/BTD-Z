@@ -8,12 +8,51 @@
          "Angle" : 0.0,
          "Colour" : 4294967295,
          "Flip" : 0,
-         "Position" : [ 0.0, 5.0 ],
+         "Position" : [ -2.0, 15.0 ],
+         "Scale" : [ 0.8500000238418579, 0.8500000238418579 ],
+         "Shown" : true,
+         "sprite" : "evil_supermonkey_tail",
+         "type" : 1,
+         "uid" : 4
+      },
+      {
+         "Alignment" : [ 2, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 0.0, 1.0 ],
          "Scale" : [ 1.0, 1.0 ],
          "Shown" : true,
-         "sprite" : "supermonkey_robo_monkey",
+         "sprite" : "evil_supermonkey_robo_monkey",
          "type" : 1,
-         "uid" : 1
+         "uid" : 2
+      },
+      {
+         "Alignment" : [ 2, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 1,
+         "Position" : [ 0.0, 1.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "evil_supermonkey_robo_monkey",
+         "type" : 1,
+         "uid" : 3
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 0.0, 1.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "evil_supermonkey_robo_monkey_reflection",
+         "type" : 1,
+         "uid" : 5
       }
    ],
    "customvariables" : null,
@@ -22,7 +61,15 @@
    "stageOptions" : {
       "SpriteInfo" : [
          {
-            "SpriteInfo" : "supermonkey_robo_monkey",
+            "SpriteInfo" : "evil_supermonkey_tail",
+            "Texture" : "InGame"
+         },
+         {
+            "SpriteInfo" : "evil_supermonkey_robo_monkey",
+            "Texture" : "InGame"
+         },
+         {
+            "SpriteInfo" : "evil_supermonkey_robo_monkey_reflection",
             "Texture" : "InGame"
          }
       ],
@@ -31,7 +78,42 @@
    },
    "timelines" : [
       {
-         "spriteuid" : 1,
+         "spriteuid" : 5,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 3,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 2,
+         "stage" : [
+            {
+               "Alignment" : [ 2, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ 0.0, 1.0 ],
+               "Scale" : [ 1.0, 1.0 ],
+               "Shown" : true,
+               "Time" : 0.0
+            },
+            {
+               "Alignment" : [ 2, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ -8.0, 1.0 ],
+               "Scale" : [ 1.0, 1.0 ],
+               "Shown" : true,
+               "Time" : 0.0
+            }
+         ]
+      },
+      {
+         "spriteuid" : 4,
          "stage" : null
       }
    ]

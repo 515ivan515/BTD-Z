@@ -48,7 +48,7 @@
 					"SlotIndices" : [ 0 ],
 					"Adjust" :
 					{
-						"CooldownTime" :    -0.63
+						"CooldownTime" :    -5.0
 					},
 					"TaskUpgrade" :
 					[
@@ -131,7 +131,7 @@
             {
                 "Weapons" :
                 {
-                    "3": "MOABTakedown.weapon"
+                    "2": "MOABTakedown.weapon"
                 }
             }
         }

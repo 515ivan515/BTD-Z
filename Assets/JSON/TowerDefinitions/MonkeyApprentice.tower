@@ -38,15 +38,15 @@
     "Upgrades" : [
         [
             "Intense Magic",
-            "Lightning Bolt",
+            "We Have Technology",
             "Summon Whirlwind",
-            "Tempest Tornado"
+            "STOP"
         ],
         [
-            "Fireball",
+            "Seeking Pineapple",
             "Monkey Sense",
-            "Dragon's Breath",
-            "Summon Phoenix"
+            "Nuclear bomb",
+            "Alien obliteration"
         ]
     ],
 	"ShortUpgradeDescriptions" :
@@ -61,22 +61,22 @@
 			"",
 			"",
 			"",
-			"Ability: Super powerful phoenix wreaks bloon havoc for 20s."
+			"Ability: Summons an all powerful spaceship that obliterates bloons."
 		]
 	], 
 	"UpgradeDescriptions" :
 	[
 		[
 			"Shoots larger and more powerful magical bolts.",
-			"Unleash the power of lightning to zap many bloons at once.",
+			"Who needs lightning when we have technology. Shoots wireless bluetooth earbuds at bloons.",
 			"Whirlwind blows bloons off the path away from the exit.",
-			"Pops bloons and blows them faster, further and more often."
+			"What are you doing!"
 		],
 		[
-			"The Apprentice adds a powerful fireball attack to its arsenal.",
+			"Seeking pineapples. because pineapples.",
 			"Allows the Monkey Apprentice to hit camo bloons.",
-			"Spews endless flames at nearby bloons.",
-			"Ability: super powerful phoenix wreaks bloon havoc for 20 seconds."
+			"Fires Bolts of explosive nuclear waste that freezes bloons.",
+			"Ability: Summons a alien spaceship that obliterates bloons."
 		]
 	],
 	"UpgradeGateway" :

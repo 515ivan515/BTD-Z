@@ -1,0 +1,184 @@
+{
+    "Upgrades":
+    [
+        {
+            "Name" : "Plasma Cannon",
+
+            "WeaponUpgrade" :
+            {
+                "SlotIndices" : [ 0, 1 ],
+                "Adjust" :
+                {
+                    "TargetRange": 25
+                },
+                "TaskUpgrade" :
+                [
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" :    "Projectile"
+                    },
+                    
+                    {
+                        "Operation" : "Adjust",
+						"Movement":
+						{
+							"Type" : "Forward",
+                        	"CutOffDistance" : 25
+						}
+                    }
+                ]
+            }
+        },
+        
+        {
+            "Name" : "Sniper Eyes",
+            "TowerUpgrade" :
+            {
+                "Replace" :
+                {
+                    "CanTargetCamo" : true
+                }
+            },
+            
+            "WeaponUpgrade" :
+            {
+                "SlotIndices" : [ 0, 1 ],
+                "Adjust" :
+                {
+                    "TargetRange": 25
+                },
+                
+                "TaskUpgrade" :
+                [
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" :    "Projectile"
+                    },
+                    
+                    {
+                        "Operation" : "Adjust",
+						"Movement":
+						{
+							"Type": "Forward",
+	                        "CutOffDistance" : 25
+						}
+                    }
+                ]
+            }
+        },
+        
+        {
+            "Name" : "Farmer Monkey",
+            "TowerUpgrade" :
+            {
+                "Weapons" :
+                {
+                    "0" : "FarmerMonkey.weapon"
+                }
+            }
+        },
+        
+        {
+            "Name" : "Juggernaut",
+            
+            "TowerUpgrade" :
+            {
+                "Weapons" :
+                {
+                    "0" : "HotPitchfork.weapon"
+                }
+            }
+        },
+        
+        {
+            "Name" : "Sharp Shots",
+            "WeaponUpgrade" :
+            {
+                "SlotIndices" : [ 0, 1 ],
+                "TaskUpgrade" :
+                [
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" :    "Projectile"
+                    },
+                    
+                    {
+                        "Operation" : "Adjust",
+                        "NumPersists" : 4
+                    }
+                ]
+            }
+        },
+        
+        {
+            "Name" : "Farmer Monkey",
+            "TowerUpgrade" :
+            {
+                "Weapons" :
+                {
+                    "0" : "FarmerMonkey.weapon"
+                }
+            }
+        },
+    
+        {
+            "Name" : "Triple Darts",
+            
+            "TowerUpgrade" :
+            {
+                "Weapons" :
+                {
+                    "0": "HotPitchfork.weapon"
+                }
+            },
+			
+			"WeaponUpgrade" : 
+			{
+				"SlotIndex" : 0,
+				
+				"TaskUpgrade" :
+				[
+					{
+						"Operation" : "SelectByLocation",
+						"Location" : [ 1, 0 ]
+					},
+					
+					{
+						"Operation" : "Replace",
+						"NumPersists" : 4
+					},
+											
+					{
+						"Operation" : "Adjust",
+						"Movement":
+						{
+							"Type" : "Forward",
+							"CutOffDistance" : 25
+						},
+						"RequiresMinUpgradeCounters" : [ 1, 0 ]
+					},
+					
+					{
+						"Operation" : "Adjust",
+						"Movement":
+						{
+							"Type": "Forward",
+							"CutOffDistance" : 25
+						},
+						"RequiresMinUpgradeCounters" : [ 2, 0 ]
+					}
+				]
+			}
+        },
+        
+        {
+            "Name" : "Super Monkey Fan Club",
+			"TowerUpgrade" :
+            {
+                "Weapons" :
+                {
+                    "2" : "HotPitchfork.weapon"                }
+            }
+        }
+    ]
+}

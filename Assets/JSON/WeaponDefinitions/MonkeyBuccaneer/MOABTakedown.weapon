@@ -1,62 +1,105 @@
 {	
     "Type":             	"MOABTakedown",    
-    "TargetRange":      	1000,
-	"CooldownTime":     	60,
-    "FireDelayTime":    	0.0,
-	"ManuallyFired": 		true,
-	"RequiresTargetToFire":	false,
-    "TargetsIndependently": true,
-    "SelfTargetMode": "Strong",
-
-	"TargetingFilter":
-	{
-		"Exclude":
-		{
-			"BloonType": [
-				"ZOMG"
-			]
-		}
-	},
-	
+    "TargetRange":      200.0,
+	"CooldownTime":     2.1,
+    "FireDelayTime":    0.0,
+    
     "Tasks" :
     [
 		{
-			"Type": "Harpoon",
-			"GraphicName": "buccaneer_monkey_pirates_harpoon",
-			"NumPersists": -1,
-			"TerminateOnZeroPersists": false,
+			"Type":             "Projectile",
+			"SpriteFile":      "BombTowerMaulerProjectile.json",
+			"NumPersists":      1,
+			"ForcePersists":	true,
+			"TerminateOnZeroPersists": true,
 			"CollisionType": "Once",
 			
-			"Movement": {
-				"Type": "ReturnToSender",
-				"Speed": 1000,
-				"ReturnSpeed": 500
+			"Movement": 
+			{
+				"Type": "Forward",
+				"Speed": 445.0,
+				"CutOffDistance": 234
 			},
 			
-			"Tasks": [
+    "Tasks" :
+    [
+		{
+			"Type": "AreaOfEffect",
+			"Range": 150,
+			"MaxTargets": -1,
+			
+			"Tasks":
+			[
 				{
 					"Type": "Damage",
 					"DamageType": "Plasma",
-					"Amount": 20000
+					"Amount": 560
 				}, 				
 				{
 					"Type": "StatusEffect",
 					"Status": "MultiLayerDamage",
 					"Kill" : true
-				},
-				{
-					"Type": "Effect",
-					"SpriteFile": "MOABTakedownAbility.json",
-					"Scale": 1,
-					"DrawLayer": "FullScreen"
 				}
 			]
 		},
-		{
-			"Type": "Effect",
-			"SpriteFile": "GeneralShockwave.json",
-			"Scale": 1,
-			"DrawLayer": "FullScreen"
+						
+				{
+					"Type": "MultiFire",
+					"InitialOffset": 0.0,
+					"AngleIncrement": 11.25,
+					"FireCount": 32,
+					
+					"Tasks":
+					[
+						{
+							"Type": "Projectile",
+							"SpriteFile": "BombTowerGreenAssassin.json",
+							"NumPersists":      1,
+							"TerminateOnZeroPersists": true,
+							
+							"CollisionType": "Once",
+							
+							"Movement":
+							{
+								"Type": "Forward",
+								"Speed": 250,
+								"CutOffDistance": 150
+							},
+							
+					"Tasks" :
+					[
+						{
+							"Type": "AreaOfEffect",
+							"Range": 50,
+							"MaxTargets": -1,
+							"Tasks" :
+							[
+								{
+									"Type": "Damage",
+									"DamageType": "Plasma",
+									"Amount": 50
+								},
+								{
+									"Type" : "StatusEffect",
+									"Status" : "MultiLayerDamage"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "Effect",
+					"SpriteFile": "Explosion.json",
+					"Scale": 1.0
+				}
+			]
+		},
+				{
+					"Type": "Effect",
+					"SpriteFile": "GroundZeroAbility.json",
+					"Scale": 0.75
+				}
+			]
 		}
 	]
 }

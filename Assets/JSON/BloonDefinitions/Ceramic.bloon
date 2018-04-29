@@ -16,5 +16,4 @@
     "StatusImmunity" : ["CrippleMOAB"],
     "DamageImmunity" : [ "MOABMauler", "Foam" ],
 	"CanGoUnderground" : true,
-    "Radius" : 13
-}
+    "Radius" : 10}

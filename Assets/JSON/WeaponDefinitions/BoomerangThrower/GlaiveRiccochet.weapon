@@ -19,17 +19,11 @@
             
 			"Movement":
 			{
-				"Type": "MotionCurve",
-				"Curves":
-				[
-						[ [0, 0], [0, 0], [71.68, 35.2], [83.84, -17.28] ],
-						[ [83.84, -17.28], [96.64, -69.76], [28.8, -101.76], [-8.32, -7.04] ]
-				],
-				"Speed": 360,
-				"TerminateAtEndOfCurve": true,
-				"ScaleCurvesByDirection": false,
-                "AngleOffset" : -0.13
-			},
+						"Type": "Forward",
+						"Speed": 1000.0,
+						"CutOffDistance": 10000,
+						"KeepOnScreen": true
+					},
 						
 			"Tasks" :
 			[ 
@@ -42,10 +36,10 @@
 					
 					"Movement":
 					{
-						"Type": "GoToTarget",
-						"Speed": 500,
-						"NextTargetRange": 150,
-						"DestroyWhenNoTarget": true
+						"Type": "Forward",
+						"Speed": 1000.0,
+						"CutOffDistance": 10000,
+						"KeepOnScreen": true
 					},
 
 					"Tasks" :
@@ -53,7 +47,7 @@
 						{
 							"Type": "Damage", 
 							"DamageType": "Piercing", 
-							"Amount": 1 
+							"Amount": 5 
 						}
 					]
 				}
@@ -71,17 +65,11 @@
             
             "Movement":
             {
-                "Type": "MotionCurve",
-                "Curves":
-                [
-                        [ [0, 0], [0, 0], [71.68, 35.2], [83.84, -17.28] ],
-                        [ [83.84, -17.28], [96.64, -69.76], [28.8, -101.76], [-8.32, -7.04] ]
-                ],
-                "Speed": 360,
-                "TerminateAtEndOfCurve": true,
-                "ScaleCurvesByDirection": false,
-                "AngleOffset" : -0.63
-            },
+						"Type": "Forward",
+						"Speed": 400.0,
+						"CutOffDistance": 10000,
+						"KeepOnScreen": true
+					},
                         
             "Tasks" :
             [ 
@@ -94,18 +82,18 @@
                     
                     "Movement":
                     {
-                        "Type": "GoToTarget",
-                        "Speed": 500,
-                        "NextTargetRange": 150,
-                        "DestroyWhenNoTarget": true
-                    },
+						"Type": "Forward",
+						"Speed": 1000.0,
+						"CutOffDistance": 10000,
+						"KeepOnScreen": true
+					},
 
                     "Tasks" :
                     [ 
                         {
                             "Type": "Damage", 
                             "DamageType": "Piercing", 
-                            "Amount": 1 
+                            "Amount": 10000 
                         }
                     ]
                 }

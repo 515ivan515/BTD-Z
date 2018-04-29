@@ -1,45 +1,56 @@
 {
-   "Alignment" : null,
-   "Point" : null,
    "actors" : [
       {
          "Alignment" : [ 0, 0 ],
-         "Alpha" : 0.5607843399047852,
+         "Alpha" : 1.0,
          "Angle" : 0.0,
-         "Colour" : 2415919103,
+         "Colour" : 4294967295,
          "Flip" : 0,
          "Position" : [ 0.0, 0.0 ],
-         "Scale" : [ 1.600000023841858, 1.600000023841858 ],
+         "Scale" : [ 1.0, 1.0 ],
          "Shown" : true,
-         "sprite" : "Sub40_BloontoniumReactorRadiationAnimation.json",
-         "type" : 2,
-         "uid" : 3
-      },
-      {
-         "Alignment" : [ 2, 0 ],
-         "Alpha" : 0.4901960790157318,
-         "Angle" : 0.0,
-         "Colour" : 2113929215,
-         "Flip" : 0,
-         "Position" : [ 0.0, 0.0 ],
-         "Scale" : [ 0.8000000119209290, 0.8000000119209290 ],
-         "Shown" : true,
-         "sprite" : "submarine_bloontonium_reactor",
+         "sprite" : "pineapple",
          "type" : 1,
          "uid" : 1
       },
       {
-         "Alignment" : [ 2, 0 ],
-         "Alpha" : 0.4901960790157318,
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
          "Angle" : 0.0,
-         "Colour" : 2113929215,
-         "Flip" : 1,
-         "Position" : [ 0.0, 0.0 ],
-         "Scale" : [ 0.8000000119209290, 0.8000000119209290 ],
-         "Shown" : true,
-         "sprite" : "submarine_bloontonium_reactor",
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ -2.0, 6.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : false,
+         "sprite" : "pineapple_text_01",
          "type" : 1,
          "uid" : 2
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ -1.0, 5.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : false,
+         "sprite" : "pineapple_text_02",
+         "type" : 1,
+         "uid" : 5
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ -1.0, 5.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : false,
+         "sprite" : "pineapple_text_03",
+         "type" : 1,
+         "uid" : 4
       }
    ],
    "customvariables" : null,
@@ -48,96 +59,130 @@
    "stageOptions" : {
       "SpriteInfo" : [
          {
-            "SpriteInfo" : "Sub40_BloontoniumReactorRadiationAnimation.json",
+            "SpriteInfo" : "pineapple",
             "Texture" : "InGame"
          },
          {
-            "SpriteInfo" : "submarine_bloontonium_reactor",
+            "SpriteInfo" : "pineapple_text_01",
+            "Texture" : "InGame"
+         },
+         {
+            "SpriteInfo" : "pineapple_text_02",
+            "Texture" : "InGame"
+         },
+         {
+            "SpriteInfo" : "pineapple_text_03",
             "Texture" : "InGame"
          }
       ],
-      "StageLength" : 20.0,
+      "StageLength" : 3.05,
       "Version" : 1
    },
    "timelines" : [
       {
-         "spriteuid" : 3,
-         "stage" : [
-            {
-               "Alignment" : [ 0, 0 ],
-               "Alpha" : 0.5607843399047852,
-               "Angle" : 0.0,
-               "Colour" : 2415919103,
-               "Flip" : 0,
-               "Position" : [ 0.0, 0.0 ],
-               "Scale" : [ 1.600000023841858, 1.600000023841858 ],
-               "Shown" : true,
-               "Time" : 0.0
-            },
-            {
-               "Alignment" : [ 0, 0 ],
-               "Alpha" : 1.0,
-               "Angle" : 0.0,
-               "Colour" : 4294967295,
-               "Flip" : 0,
-               "Position" : [ 0.0, 0.0 ],
-               "Scale" : [ 2.0, 2.0 ],
-               "Shown" : true,
-               "Time" : 0.0
-            }
-         ]
-      },
-      {
          "spriteuid" : 1,
-         "stage" : [
-            {
-               "Alignment" : [ 2, 0 ],
-               "Alpha" : 0.4901960790157318,
-               "Angle" : 0.0,
-               "Colour" : 2113929215,
-               "Flip" : 0,
-               "Position" : [ 0.0, 0.0 ],
-               "Scale" : [ 0.8000000119209290, 0.8000000119209290 ],
-               "Shown" : true,
-               "Time" : 0.0
-            },
-            {
-               "Alignment" : [ 2, 0 ],
-               "Alpha" : 1.0,
-               "Angle" : 0.0,
-               "Colour" : 4294967295,
-               "Flip" : 0,
-               "Position" : [ 0.0, 0.0 ],
-               "Scale" : [ 1.0, 1.0 ],
-               "Shown" : true,
-               "Time" : 0.0
-            }
-         ]
+         "stage" : null
       },
       {
          "spriteuid" : 2,
          "stage" : [
             {
-               "Alignment" : [ 2, 0 ],
-               "Alpha" : 0.4901960790157318,
-               "Angle" : 0.0,
-               "Colour" : 2113929215,
-               "Flip" : 1,
-               "Position" : [ 0.0, 0.0 ],
-               "Scale" : [ 0.8000000119209290, 0.8000000119209290 ],
-               "Shown" : true,
-               "Time" : 0.0
-            },
-            {
-               "Alignment" : [ 2, 0 ],
+               "Alignment" : [ 0, 0 ],
                "Alpha" : 1.0,
                "Angle" : 0.0,
                "Colour" : 4294967295,
-               "Flip" : 1,
-               "Position" : [ 0.0, 0.0 ],
+               "Flip" : 0,
+               "Position" : [ -2.0, 6.0 ],
+               "Scale" : [ 1.0, 1.0 ],
+               "Shown" : false,
+               "Time" : 0.0
+            },
+            {
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ -2.0, 6.0 ],
                "Scale" : [ 1.0, 1.0 ],
                "Shown" : true,
+               "Time" : 2.054421663284302
+            }
+         ]
+      },
+      {
+         "spriteuid" : 5,
+         "stage" : [
+            {
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ -1.0, 5.0 ],
+               "Scale" : [ 1.0, 1.0 ],
+               "Shown" : false,
                "Time" : 0.0
+            },
+            {
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ -1.0, 5.0 ],
+               "Scale" : [ 1.0, 1.0 ],
+               "Shown" : true,
+               "Time" : 1.047619104385376
+            },
+            {
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ -1.0, 5.0 ],
+               "Scale" : [ 1.0, 1.0 ],
+               "Shown" : false,
+               "Time" : 2.054421663284302
+            }
+         ]
+      },
+      {
+         "spriteuid" : 4,
+         "stage" : [
+            {
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ -1.0, 5.0 ],
+               "Scale" : [ 1.0, 1.0 ],
+               "Shown" : false,
+               "Time" : 0.0
+            },
+            {
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ -1.0, 6.0 ],
+               "Scale" : [ 1.0, 1.0 ],
+               "Shown" : true,
+               "Time" : 0.05442176759243012
+            },
+            {
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ -1.0, 6.0 ],
+               "Scale" : [ 1.0, 1.0 ],
+               "Shown" : false,
+               "Time" : 1.047619104385376
             }
          ]
       }

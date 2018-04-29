@@ -5,8 +5,8 @@
 	"BaseSpeed" : 70,
 	"SpeedMultiplier" : 2.2,
 	"RBE" : 47,
-    "ChildBloons" : [ "Zebra.bloon", "Zebra.bloon" ],
-    "StatusImmunity" : ["CrippleMOAB"],
-    "DamageImmunity" : [ "Juggernaut", "MOABMauler", "Foam" ],
+    "ChildBloons" : [ "Lead.bloon", "Lead.bloon", "Lead.bloon", "Lead.bloon", "Lead.bloon", "Lead.bloon" ],
+    "StatusImmunity" : ["CrippleMOAB", "MoveToPath"],
+    "DamageImmunity" : [ "Piercing", "Fire", "Juggernaut", "MOABMauler" ],
     "Radius" : 13
 }
