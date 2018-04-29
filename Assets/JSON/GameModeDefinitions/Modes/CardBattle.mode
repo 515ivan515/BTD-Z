@@ -1,0 +1,23 @@
+{
+	"Rules" : {
+		"GiveCashAmount" : 250,
+		"MinGiveCashAmount" : 0,
+		"CanUpgradeTowers" : false,
+		"UseCards" : true,
+        "CardTrashLockDurationSecs" : 4,
+        "Reward": {
+			"WinMedallionsNoLivesLost": 0,
+			"WinMedallions" : 0,
+			"LossMedallions" : 0
+        },
+        "UseCustomInGameHUD" : true
+	},
+
+	"LobbyRules": {
+		"UseCustomMapBorder" : true,
+		"ShouldShowMedallions": true,
+        "ShouldAllowMonkeyFarmer" : false,
+		"LoadoutType" : "Cards",
+		"CostToQuit" : 0
+	}
+}

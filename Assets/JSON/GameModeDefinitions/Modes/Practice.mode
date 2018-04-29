@@ -1,0 +1,14 @@
+{
+    "Rules" : {
+		"ReturnToLobbyAfterGame" : false,
+		"TipsScreen" : "Practice",
+        "TowerBoostLimit" : 3,
+        "BloonBoostLimit" : 3,
+        "RedHotSpikesLimit" : 5
+    },
+    "LobbyRules": {
+		"OpponentName" : "PRACTICE MODE",
+		"HasOpponent" : false,
+		"AllowRematch" : false
+    }
+}

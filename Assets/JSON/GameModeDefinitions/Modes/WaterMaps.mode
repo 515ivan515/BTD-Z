@@ -1,0 +1,31 @@
+{
+    "LobbyRules" : {
+        "SelectableTrackList" : [
+          "jungle",
+          "park",
+          "ying_yang",
+          "hydro_dam",
+          "battle_park",
+          "battle_river",
+          "battle_sands",
+          "swamp",
+          "patch",
+          "snowfall",
+          "water_hazard",
+          "indoor_pools",
+          "ice_flow",
+		  "snowy_castle",
+		  "circles",
+		  "ink_blot",
+          "bloon_circles",
+          "wizards_keep",
+          "ghostly_coast",
+          "zen_garden",
+          "inlets",
+          "wattle_resorts",
+          "riverside",
+          "airfield"
+        ]
+    }
+
+}

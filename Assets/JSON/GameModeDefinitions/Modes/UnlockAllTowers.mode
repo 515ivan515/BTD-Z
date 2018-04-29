@@ -1,0 +1,8 @@
+{
+	"LobbyRules" : {
+		"UnlockAllTowers" : true
+	},
+	"Rules" : {
+		"UnlockAllRanksTo" : 2
+	}
+}

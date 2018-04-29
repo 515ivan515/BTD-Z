@@ -1,0 +1,9 @@
+{
+	"Rules" : {
+		"GiveCashAmount" : 250,
+		"MinGiveCashAmount" : 0,
+        "TowerBoostLimit" : 3,
+        "BloonBoostLimit" : 3,
+        "RedHotSpikesLimit" : 5
+	}
+}

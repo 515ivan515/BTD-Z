@@ -1,0 +1,12 @@
+{
+	"Rules" : {
+		"GiveCashAmount" : 75,
+		"MinGiveCashAmount" : 0,
+        "MaxGiveCashAmount" : 3000,
+		"CanSendBloons" : false,
+		"TipsScreen" : "Defense",
+        "TowerBoostLimit" : 3,
+        "BloonBoostLimit" : 0,
+        "RedHotSpikesLimit" : 5
+	}
+}

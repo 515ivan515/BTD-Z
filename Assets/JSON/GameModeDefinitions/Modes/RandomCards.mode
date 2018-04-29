@@ -1,0 +1,12 @@
+{
+	 "LobbyRules" : {
+        "ForceRandomiseTowers": true,
+        "ForceRandomiseTowersSame": true,
+        "AllowEditDeck": false
+    },
+    "Rules" : {
+        "UseCustomDeck" : true,
+        "ShuffleDeckBeforeDraw" : false,
+        "ForceStartingHand" : false
+    }
+}

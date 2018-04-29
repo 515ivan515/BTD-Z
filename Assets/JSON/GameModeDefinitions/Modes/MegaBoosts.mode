@@ -1,0 +1,11 @@
+{
+    "Rules" : {
+        "TowerBoostIgnoreDefaultBehaviour":true,
+        "TowerBoostUpgradeTowerCount":-1,
+        "TowerBoostUpgradePath":-2,
+        "TowerBoostUpgradeTower":true,
+        "BloonBoostUpgradeWaveBloons":true,
+        "BloonBoostIgnoreDefaultBehaviour":true,
+        "BloonBoostUpgradeSendBloons":true
+    }
+}

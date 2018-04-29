@@ -1,0 +1,26 @@
+{
+	 "LobbyRules" : {
+        "CanRandomiseTowers": false,
+        "ForceRandomiseTowers": true,
+        "ForceRandomiseTowersSame": true,
+        "CanRollLottery": false,
+        "RandomTowerSlotInfo": [
+            {
+                "MinCost": 0,
+                "MaxCost": 650
+            },
+            {
+                "MinCost": 0,
+                "MaxCost": -1,
+                "CamoDetect" : true
+            },
+            {
+                "MinCost": 650,
+                "MaxCost": -1
+            }
+        ]
+    },
+    "Rules" : {
+        "UnlockAllRanksTo" : 4
+    }
+}

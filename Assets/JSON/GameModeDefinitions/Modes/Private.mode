@@ -1,0 +1,13 @@
+{
+    "LobbyRules": {
+		"ShowOpponentOnlineStatus" : 	true,
+		"Countdown" :           		-1,
+		"SendPlayerStatsRequest" : 		true,
+		"AwardLossOnQuit" :				false,
+		"AwardWinOnOpponentQuit" :		false,
+		"CostToQuit" :          		0,
+		"AllowQuitOnWaitToJoin" : 		true,
+		"WaitOnClientJoin" : 			false,
+		"CanChooseMap" : 				true
+    }
+}

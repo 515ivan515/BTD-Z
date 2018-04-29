@@ -1,0 +1,16 @@
+{
+    "LobbyRules": {
+        "CanSpy": false,
+        "ShouldShowMedallions": true,
+		"CostToQuit" : 0,
+		"UseCustomMapBorder" : true
+    },
+    "Rules": {
+        "Reward": {
+			"WinMedallionsNoLivesLost": 0,
+			"WinMedallions" : 0,
+			"LossMedallions" : 0
+        },
+        "UseCustomInGameHUD" : true
+    }
+}

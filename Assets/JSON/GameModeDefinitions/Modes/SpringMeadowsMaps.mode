@@ -1,0 +1,10 @@
+{
+    "LobbyRules" : {
+        "SelectableTrackList" : [
+          "water_hazard",
+          "park",
+          "temple"
+        ]
+    }
+
+}

@@ -1,0 +1,15 @@
+{
+	
+    "LobbyRules" : {
+        "SelectableTrackList" : [
+            "cards",
+            "mine",
+            "temple",
+            "yellow_brick",
+            "game",
+            "offside",
+			"mondrian"
+        ]
+    }
+
+}

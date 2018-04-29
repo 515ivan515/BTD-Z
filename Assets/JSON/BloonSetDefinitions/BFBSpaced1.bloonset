@@ -1,0 +1,9 @@
+{
+	"Type" : "BFBSpaced1",
+	"BloonType" : "BFB",
+	"Quantity" : 1,
+	"Interval" : 4.0,
+	"Cost" : 2500,
+	"IncomeChange" : -140,
+	"UnlockRound" : 18
+}

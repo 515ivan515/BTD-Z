@@ -1,0 +1,11 @@
+{
+	"Setup"	: {
+		"MoneyModifier" : 2.0
+    },
+	"Rules" : {
+        "GiveCashAmountModifier" : 2.0,
+		"BloonSpawnIncomeMul": 2.0,
+		"CollectableIncomeMul":2.0,
+        "BonusIncomeMul": 2.0
+	}
+}

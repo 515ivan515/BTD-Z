@@ -1,0 +1,9 @@
+{
+	"Type" : "ZebraGroup1",
+	"BloonType" : "Zebra",
+	"Quantity" : 3,
+	"Interval" : 0.1,
+	"Cost" : 220,
+	"IncomeChange" : 6,
+	"UnlockRound" : 11
+}
